@@ -10,5 +10,5 @@ Apresentar ao aluno conceitos relacionados a centrais e sistemas hidrelétricos,
 - Projetos;
 
 
-Para escrever as equações use [este link] (https://www.codecogs.com/latex/eqneditor.php)
+Para escrever as equações use [este link](https://www.codecogs.com/latex/eqneditor.php)
 
