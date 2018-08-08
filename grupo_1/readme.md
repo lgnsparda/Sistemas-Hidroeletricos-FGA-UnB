@@ -4,7 +4,7 @@ Projeto do Aproveitamento
 
 imagem:
 
-![teste](teste.png)
+![teste](0902wh_zu3_BR.png)
 
 
 Projeto Hidrológico
