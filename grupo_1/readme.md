@@ -1,12 +1,12 @@
 PROJETO HIDROELÉTRICO
 
-\chapter{Projeto do Aproveitamento}
+Projeto do Aproveitamento
 
 
-\chapter{Projeto Hidrológico}
+Projeto Hidrológico
 
 
-\chapter{Projeto do Conduto}
+Projeto do Conduto
 
 
-\chapter{Projeto da Turbina}
+Projeto da Turbina
