@@ -21,7 +21,7 @@ Exemplo para anexar uma imagem (A imagem deve ser enviada para a pasta do grupo 
 
 Para escrever as equações usando o formato do LateX use [este link](https://www.codecogs.com/latex/eqneditor.php). A equação deverá ser salva em formato .gif e enviada para o repositório para ser anexada como imagem, conforme exemplo abaixo:
 
-![Teste de legenda de imagem 2](CodCogsEqn.gif)
+![Teste de legenda de imagem 2](CodeCogsEqn.gif)
 
 
 
