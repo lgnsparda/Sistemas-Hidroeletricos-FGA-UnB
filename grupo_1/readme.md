@@ -13,16 +13,7 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
   - Modelamento do aproveitamento hidrelétrico. Cada grupo deverá mostrar como ficará o sistema hidromecânico equivalente através do cálculo da energia hidráulica média disponível e do trabalho específico. O grupo 1 deverá usar a  altura de cota **de 70 m** para seu aproveitamento hidrelétrico:
        
 
-  - Determinação da queda do aproveitamento, considerando uma perda a ser fornecida para cada grupo de:
-  
-       - Grupo 1: 1,5 m
-       - Grupo 2: 1 m
-       - Grupo 3: 0,5 m
-       - Grupo 4: 0,25 m
-       
-
-        
-       Onde cada grupo deverá especificar se a central será de baixa ou de alta queda;
+  - Determinação da queda do aproveitamento: O grupo 1 deverá considerar uma perda de **1,5 m**, onde cada grupo deverá especificar se a central será de baixa ou de alta queda;
        
   - Determinação da vazão média de longo tempo baseado nos dados de vazão dados a cada grupo. Cada grupo deverá mostrar como fez este cálculo e as hipóteses adotadas;
   
