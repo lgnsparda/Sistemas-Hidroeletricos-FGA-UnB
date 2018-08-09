@@ -1,5 +1,9 @@
 # PROJETO HIDROELÉTRICO
 
+Nome do aluno 1 - matricula 1
+Nome do aluno 2 - matricula 2
+Nome do aluno 3 - matricula 3
+
 ### Projeto do Aproveitamento
 
 O projeto do aproveitamento consistirá na realização e apresentação de cálculos oriundos de dados de um dado aproveitamento hidrelétrico visando a instalação de uma usina hidrelétrica. Cada item deverá ser respondido neste documento do repositório, usando a ferramenta de edição.
