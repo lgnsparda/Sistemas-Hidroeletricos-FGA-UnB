@@ -46,8 +46,6 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
         Um arquivo de ajuda de preenchimento e um modelo de ART estão disponibilizados neste repositório. **Cada grupo deverá fazer sua ART baseado no modelo disponibilizado e fazer o *upload* para este repositório, sem recorrer a arquivos prontos na internet**;
         
 - Projetos que não tiverem todos estes itens respondidos **não serão avaliados!**
-
-
 Este projeto deverá ser feito neste arquivo, com o *upload* das respectivas ARTs, será até o dia **02/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
 
@@ -87,12 +85,70 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        - Análisar o resultado obtido de vazão regularizada e comparar este resultado com as vazões firme e de projeto calculados anteriormente;
         
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
-  
-
-A entrega deste projeto será até o dia \textbf{23/09/2018}, pela plataforma MOODLE. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
+Este projeto deverá ser feito neste arquivo até o dia **23/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
 
 ### Projeto do Conduto
 
+O projeto do conduto consistirá na realização e apresentação de cálculos de condutos e canais para a central hidrelétrica. 
+
+
+  - Projeto do canal para a futura usina hidrelétrica utilizando as fórmulas de Chezy, determinando de acordo com os dados de vazão de cada grupo:
+     
+       -A melhor forma geométrica de seção para o canal em questão;
+       
+       - O diâmetro hidráulico da seção;
+       
+       - Velocidade da água no canal;
+       
+       - Vazão de água no canal;
+       
+      
+  - Baseado nos valores de queda dispostos no projeto do aproveitamento, o grupo deverá inserir no desenho esquemático deste projeto os seguintes itens:
+        
+       - Valores de cota de altura;
+       - Alturas de queda;
+       - Linhas piezométrica e de energia;
+        
+  - Determinação do semiperíodo da onda de pressão para dimensionamento do conduto fechado. Cada grupo poderá fazer as considerações que achar necessárias;
+  
+  - Determinação de valores de golpe de aríete positivo máximo;
+  
+  - Determinação de valores do golpe de aríete aceitável;
+  
+  - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
+Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
+
 
 ### Projeto da Turbina
+
+O dimensionamento preliminar de uma turbina consistirá em determinar e dimensionar uma turbina para uma dado aproveitamento hidrelétrico. 
+
+  - Cada grupo deverá especificar qual devem ser a potência e vazão da turbina a ser projetada, baseados nos cálculos dos projetos anteriores;
+  
+  - Estime a rotação nominal da turbina, considerando um gerador com 10 pólos e frequência de corrente de 60 Hz;
+  
+  - Para um modelo reduzido de 0,075 m de diâmetro, estime qual deve ser a razão de escala geométrica necessária para se obter os valores de potência e vazão determinados no primeiro item;
+  
+  - Mostre o triângulo de velocidades para estas condições para turbinas Kaplan, Francis e Pelton. Faça as considerações que achar necessárias e explique-as;
+  
+  - Determine a rotação específica e classifique a turbina como lenta, rápida ou extra-rápida;
+  
+  - Estime a velocidade de disparo da turbina;
+  
+  - Estime o fator de capacidade;
+  
+  - Qual é o tipo de turbina mais adequado para este aproveitamento?
+  
+  - Se for o caso, determine a altura de sucção e diga se existe risco de cavitação;
+  
+  - Com os cálculos, a usina que conterá esta turbina será classificada como? (Pequena central hidrelétrica, Grande central hidrelétrica, etc.)
+  
+  - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
+
+
+Os dados faltantes poderão ser estimados pelo grupo, desde que a forma de estimativa seja devidamente explicada. É facultada a utilização de ferramentas computacionais. Este projeto deverá ser feito neste arquivo até o dia **25/11/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
+
+
+
+
