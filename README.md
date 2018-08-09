@@ -1,7 +1,7 @@
-# Sistemas_Hidroeletricos
+# Sistemas Hidroeletricos - Informações para os projetos
 
-### Objetivos:
-Apresentar ao aluno conceitos relacionados a centrais e sistemas hidrelétricos, capacitando-o a fazer dimensionamentos básicos destes sistemas
+### Informações Gerais:
+Este repositório contém todos os arquivos e informações para os grupos fazerem os projetos. Cada grupo tem uma pasta com seu número, onde os membros do grupo e suas respectivas matrículas estão no arquivo README.md de cada pasta. 
 
 ### Metodologia de Ensino:
 - Aulas expositivas;
