@@ -14,7 +14,7 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
 
        
 
-  - Determinação da queda do aproveitamento: O grupo 1 deverá considerar uma perda de **1 m**, onde cada grupo deverá especificar se a central será de baixa ou de alta queda;
+  - Determinação da queda do aproveitamento: O grupo 2 deverá considerar uma perda de **1 m**, onde cada grupo deverá especificar se a central será de baixa ou de alta queda;
   
        
   - Determinação da vazão média de longo tempo baseado nos dados de vazão dados a cada grupo. Cada grupo deverá mostrar como fez este cálculo e as hipóteses adotadas;
