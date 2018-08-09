@@ -10,12 +10,7 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
 
   - Cada grupo terá em sua pasta do repositório um conjunto de dados de vazão que deverá ser usado ao longo deste e dos demais projetos quando necessário;
   
-  - Modelamento do aproveitamento hidrelétrico. Cada grupo deverá mostrar como ficará o sistema hidromecânico equivalente através do cálculo da energia hidráulica média disponível e do trabalho específico. Para este cálculo cada grupo deverá usar as seguintes alturas de cota para seu aproveitamento hidrelétrico:
-
-       - Grupo 1: 70 m
-       - Grupo 2: 5 m
-       - Grupo 3: 10 m
-       - Grupo 4: 20 m
+  - Modelamento do aproveitamento hidrelétrico. Cada grupo deverá mostrar como ficará o sistema hidromecânico equivalente através do cálculo da energia hidráulica média disponível e do trabalho específico. O grupo 3 deverá usar a  altura de cota **de 10 m** para seu aproveitamento hidrelétrico:
        
 
   - Determinação da queda do aproveitamento, considerando uma perda a ser fornecida para cada grupo de:
