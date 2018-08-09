@@ -10,9 +10,10 @@ Cada arquivo README.md representará o projeto Hidrelétrico de cada grupo, que 
 - Projeto da Turbina;
 - Projeto de Gestão;
 
-Cada item está subdividido em tarefas que o grupo deverá executar. Os resultados deverão ser registrados no próprio arquivo README, usando a ferramenta de edição do GitHub. Abaixo segue como colocar equações e imagens:
+Cada item está subdividido em tarefas que o grupo deverá executar. Os resultados deverão ser registrados no próprio arquivo README, usando a ferramenta de edição do GitHub. **Não serão aceitas outras formas para envio dos projetos!**
 
-### Ajuda:
+Abaixo segue como colocar equações e imagens:
+
 
 Exemplo para anexar uma imagem (A imagem deve ser enviada para a pasta do grupo via *upload*):
 
