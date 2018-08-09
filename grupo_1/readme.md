@@ -52,7 +52,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        - Curva de duração de vazões;
        
-       - Curva de duração de potência para uma queda (Determinada no projeto do aproveitamento) e rendimento de **90%**:
+       - Curva de duração de potência para uma queda (Determinada no projeto do aproveitamento) e rendimento de **90%**;
        
        - Diagrama de Rippl;      
        
