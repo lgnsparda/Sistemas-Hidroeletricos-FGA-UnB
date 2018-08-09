@@ -15,7 +15,6 @@ Exemplo para anexar uma imagem:
 
 ![Teste de legenda de imagem](0902wh_zu3_BR.jpg)
 
-Teste de imagem
 
 Para escrever as equações através do formato do LateX use [este link](https://www.codecogs.com/latex/eqneditor.php)
 
