@@ -1,8 +1,8 @@
 # PROJETO HIDROELÉTRICO
 
-Nome do aluno 1 - matricula 1
-Nome do aluno 2 - matricula 2
-Nome do aluno 3 - matricula 3
+-Nome do aluno 1 - matricula 1
+-Nome do aluno 2 - matricula 2
+-Nome do aluno 3 - matricula 3
 
 ### Projeto do Aproveitamento
 
