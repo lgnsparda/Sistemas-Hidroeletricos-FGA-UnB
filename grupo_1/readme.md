@@ -39,11 +39,6 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
 
 Este projeto deverá ser feito neste arquivo, com o *upload* das respectivas ARTs, será até o dia **02/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
-imagem:
-
-![teste](0902wh_zu3_BR.jpg)
-
-Para escrever as equações através do formato do LateX use [este link](https://www.codecogs.com/latex/eqneditor.php)
 
 
 ### Projeto Hidrológico
