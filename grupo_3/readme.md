@@ -1,8 +1,9 @@
 # PROJETO HIDROELÉTRICO
 
-  - Nome do aluno 1 - matricula 1
-  - Nome do aluno 2 - matricula 2
-  - Nome do aluno 3 - matricula 3
+  - Ariana Alves Barbosa Flores - 13/0043036
+  - Felipe Tomé de Sousa Diniz - 13/0109827
+  - Roger Roel Awadraj Anijs - 18/0142038
+  
 
 ### Projeto do Aproveitamento
 
