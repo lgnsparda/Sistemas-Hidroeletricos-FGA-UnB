@@ -1,8 +1,9 @@
 # PROJETO HIDROELÉTRICO
 
-  - Nome do aluno 1 - matricula 1
-  - Nome do aluno 2 - matricula 2
-  - Nome do aluno 3 - matricula 3
+  - Juliana Barbacena Motta - 14/0147233
+  - Tiago Simon Engelsdorff - 14/0032592
+  - Gustavo Schafhauser Bocon - 14/0021761
+  - Yann Uatanabi Gaspar de Almeida - 14/0166190
 
 ### Projeto do Aproveitamento
 
