@@ -1,8 +1,9 @@
 # PROJETO HIDROELÉTRICO
 
-  - Nome do aluno 1 - matricula 1
-  - Nome do aluno 2 - matricula 2
-  - Nome do aluno 3 - matricula 3
+  - João Pedro Alemonge Honorato - 15/00113019
+  - Brenda Bianca Neves Dias - 15/0119593
+  - Igor Veneroso do Nascimento - 13/0114740
+  - Victor Miguel Cunha de Sousa - 14/0087729
 
 ### Projeto do Aproveitamento
 
