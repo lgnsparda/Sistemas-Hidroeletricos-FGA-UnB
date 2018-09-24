@@ -147,33 +147,122 @@ Este projeto deverá ser feito neste arquivo, com o *upload* das respectivas ART
 
 O projeto hidrológico consistirá na realização e apresentação de cálculos hidrológicos para o projeto de uma central hidrelétrica. Cada item deverá ser respondido neste documento do repositório, usando a ferramenta de edição.
 
+O projeto hidrológico tem como objetivo apresentar cálculos hidrológicos com base nos  dados de vazão fornecidos ao grupo e o valor de queda líquida do Projeto de Aproveitamento. Para isso os dados foram manipulados para apresentação dos fluviogramas, diagramas, períodos e vazão regularizada. 
 
   - Com os dados de vazão usados no projeto do aproveitamento, os grupos deverão identificar e organizar os dados em médias semanais (Se a disposição dos dados for diária) ou anuais (Se a disposição dos dados for mensal);
   
+  Para realização do estudo, os 30316 dados de vazão diários referentes a 82 anos entre 1931 - 2013 foram organizados em dados semanais para melhor visualização. Totalizando 4333 médias semanais.
+O fluviograma representa essa variação da vazão ao longo do tempo, obtendo-se assim o comportamento de um rio durante determinado período, podendo assim identificar o período chuvoso e o período de estiagem.
+
+![5 curva de duracao de potencia](https://user-images.githubusercontent.com/42543898/45934718-6ff35980-bf78-11e8-87cb-d68a41efca93.jpg)
+
+A Figura 1 apresenta o comportamento da vazão ao longo dos 82 anos, a análise dos dados permite observar que os maiores valores de vazão encontram-se entre as semanas 2737 e 3500, alcançando um valor médio de 1926 m³/s e o menor na semana 2864 com valor médio de 38,71m³/s.
+  
   - Cada grupo deverá realizar uma caracterização estatística destes dados. Para a caracterização dos dados, o grupo deverá utilizar de programação, onde a linguagem de programação é de livre escolha do grupo. **O algoritmo programado deverá ser enviado ao repositório via *upload*. Não será permitida a utilização de planilhas excel ou de programas já feitos**. Os seguintes itens deverão ser respondidos neste documento:
   
-       - Fluviograma dos dados, dispostos em valores anuais e decenais;
-       
-       - Curva de duração de vazões;
-       
-       - Curva de duração de potência para uma queda (Determinada no projeto do aproveitamento) e rendimento de **70%**;
-       
-       - Diagrama de Rippl;      
+#### Fluviograma dos dados, dispostos em valores anuais e decenais;
 
-       - Determinação do período crítico;
-        
-       - Determinação de períodos seco e úmido;
-        
-       - Determinação de valores extremos;
-        
-       - Estimativa da vazão firme e da vazão de projeto para dimensionamento de uma central hidrelétrica;
-        
-      
-       - Cálculo da vazão regularizada: O grupo deverá fazer um cálculo da vazão regularizada baseado nos dados fornecidos de vazão. O método a ser usado é o método de Conti-Varlet. A formulação deste método está disponível no livro-texto do curso (Souza, Z., Santos, A. H. M e Bortoni, E. C.  **Centrais Hidrelétricas: Implantação e Comissionamento**, 2a. Edição, Editora Interciência.). Para este cálculo o grupo deverá:
-        
-       - Usar o programa disponibilizado pelo livro-texto do curso ou implementar o método em uma linguagem de programação da escolha do grupo. Caso o grupo escolha a segunda alternativa, **o algoritmo programado deverá ser enviado ao repositório via *upload***;
+Como fluviogramas apresentam a variação da vazão ao longo do tempo, podem ser representados de acordo com os períodos anual e decenal.
+A configuração anual, apresentada na Figura 2, foi obtida por meio de manipulação de dados referente à média de 52 semanas. Os maiores valores de vazão ocorreram no ano de 1983, sendo 603,8m³/s, o maior valor médio de vazão, enquanto o valor mínimo médio de vazão ocorreu no ano de 1969 resultando em 105,7m³/s.
+
+![2 fluviograma anual](https://user-images.githubusercontent.com/42543898/45934724-71248680-bf78-11e8-87b2-a47bd2fc96f3.jpg)
+
+O fluviograma decenal apresenta a variação ao longo do tempo onde os dados de vazão estão organizados em médias calculadas a cada 10 anos.
+
+![3 fluviograma decenal](https://user-images.githubusercontent.com/42543898/45934725-71bd1d00-bf78-11e8-9f6b-c66c483fe898.jpg)
+
+Realizando-se as médias decenais foram obtidas 9 decênios, onde, pela Figura 3 é possível observar que no último decênio ocorreram as menores médias de vazão, atingindo o mínimo de 75,24m³/s e máximo de 284,64m³/s.
        
-       - Análisar o resultado obtido de vazão regularizada e comparar este resultado com as vazões firme e de projeto calculados anteriormente;
+#### Curva de duração de vazões;
+       
+A curva de duração de vazões ou de permanência, representa uma curva da relação entre a vazão de ocorrência e a probabilidade  dessa vazão ser superada ou igualada, ou seja, a distribuição de frequências acumuladas.
+Os dados de média anual foram dispostos de forma decrescente para melhor visualização do gráfico, assim obtém-se a frequência com que cada dado de vazão é superado ou igualado. Esses dados são divididos pelo número total de dados, 83 anos,  e multiplicados por 100 para se obter o valor em porcentagem.
+
+![4 curva de duracao de vazao](https://user-images.githubusercontent.com/42543898/45934726-71bd1d00-bf78-11e8-84a2-0cbafc052502.jpg)
+       
+Através da curva de duração, Figura 4, é determinada a vazão de maior permanência. Com isso, as menores médias de vazão são as que possuem maior probabilidade de serem igualadas ou superadas, enquanto as maiores possuem frequência próxima de zero. O menor valor de vazão observado é 105,7m³/s, e os maiores valores encontram-se entre 700m³/s, e 357,2m³/s sendo que estes só são superados ou igualados com no máximo 7% das ocorrências.
+
+#### Curva de duração de potência para uma queda (Determinada no projeto do aproveitamento) e rendimento de **70%**;
+
+A partir da curva de duração de vazões, é possível gerar a curva de duração de potência ao levar em consideração o rendimento, a gravidade e a queda líquida. A queda líquida adotada, de **9,5m** foi calculada no projeto de aproveitamento.
+Assim a ordenada da curva é multiplicada pela equação:
+
+![4 curvapotencia](https://user-images.githubusercontent.com/42543898/45934727-7255b380-bf78-11e8-8341-89b8a38fbc41.gif)
+
+onde:
+
+  - *η* é o rendimento;
+  - *g* é aceleração da gravidade;
+  - *Hl* é a queda líquida.
+  
+  ![5 curva de duracao de potencia](https://user-images.githubusercontent.com/42543898/45934718-6ff35980-bf78-11e8-87cb-d68a41efca93.jpg)
+  
+  A Figura 5 apresenta a curva de duração de potência	, assim como a curva de duração das vazões, as menores potências ocorrem com maior frequência e as maiores têm frequência próxima de zero. Com este diagrama, intervalos temporais são determinados de acordo com suas condições hidrológicas, são definidos como período crítico, período crítico de ciclo completo, período seco e período úmido.
+       
+#### Diagrama de Rippl;   
+
+O diagrama de Rippl, ou diagrama de massas corresponde ao diagrama de volumes acumulados de acordo com o ano hidrológico,  para isso realiza a integração do fluviograma, de acordo com a equação:
+
+![5 integral](https://user-images.githubusercontent.com/42543898/45934719-6ff35980-bf78-11e8-8bb9-25549bb5ee9c.gif)
+
+onde:
+  - *D* é o deflúvio em m³;
+  - *Q* é a vazão em m³/s;
+  - *ti* é o tempo inicial;
+  - *tf* é o tempo final.
+
+Com este diagrama é possível determinar  o volume útil do reservatório, o período crítico, a vazão do período e estudar a regularização de vazões.
+De acordo com dados de vazão do grupo, o volume acumulado é obtido durante os 83 anos, para isso considerou-se todos os meses com 30 dias, assim:
+
+![6 tempo](https://user-images.githubusercontent.com/42543898/45934721-708bf000-bf78-11e8-99eb-f5d3f070512c.gif)
+
+![6 diagrama de rippl](https://user-images.githubusercontent.com/42543898/45934720-708bf000-bf78-11e8-8748-9669b9609435.jpg)
+
+O curva do diagrama de Rippl ajustada, Figura 6 apresenta o volume acumulado organizado de forma crescente, assim a abscissa encontra-se de acordo com o ano hidrológico. A Tabela a seguir apresenta a legenda dos meses de acordo com ano hidrológico.
+
+**Meses ano hidrológico** | **Meses ano civil**
+------------------------- | -------------------
+1                         | Fevereiro
+2                         | Abril
+3                         | Março
+4                         | Maio
+5                         | Janeiro
+6                         | Junho
+7                         | Agosto
+8                         | Julho
+9                         | Novembro
+10                        | Dezembro
+11                        | Outubro
+12                        | Setembro
+
+Assim de acordo com ano civil, o mês de setembro possui volume acumulado máximo de 6287 x 10^7 m³, e o mês de fevereiro o valor mínimo de 3451 x 10^7 m³.
+
+#### Determinação do período crítico;
+
+Período crítico é definido como o período de plena utilização do reservatório, pelo diagrama de Rippl referente ao ano civil é possível observar que o período crítico vai de janeiro a fevereiro, onde o reservatório apresenta valor mínimo de volume acumulado de acordo com Figura 7.
+
+![7 periodo critico](https://user-images.githubusercontent.com/42543898/45934722-71248680-bf78-11e8-9b01-67db886fb22c.jpg)
+        
+#### Determinação de períodos seco e úmido;
+
+O ano hidrológico do rio é caracterizado pelos períodos seco e úmido, estão relacionados aos dados extremos de vazão. No período seco os índices do reservatório são mínimos devido aos baixos índices pluviométricos, correspondendo assim ao período crítico.
+De acordo com Figura 7 o período seco do projeto em estudo vai de janeiro a fevereiro. Os meses restantes, em que ocorre aumento do volume do reservatório, são considerados período úmido.
+        
+#### Determinação de valores extremos;
+
+Os valores extremos são determinados de acordo com os valores de mínimo e máximo avaliados dentro de um determinado período. Analisando os dados de vazão adota-se como valores extremos, o valor mínimo de 10m³/s e o valor máximo de 2393m³/s.
+
+#### Estimativa da vazão firme e da vazão de projeto para dimensionamento de uma central hidrelétrica;
+
+A vazão de projeto é a vazão utilizada para dimensionamento da central hidrelétrica, deve ser escolhida para não causar desperdício do recurso hídrico ou superdimensionamento do mesmo, corresponde a uma frequência de 30% a 40%. Considerando a curva de duração de vazões e a média entre as frequências, a vazão de projeto adotada será de 277,1m³/s para aproximadamente 35% de frequência.
+Já a vazão firme, é definida como  a vazão que possui uma incidência de no mínimo 95%, ou seja, pela curva de duração de vazões a vazão firme será de 164,8m³/s.
+
+      
+   - Cálculo da vazão regularizada: O grupo deverá fazer um cálculo da vazão regularizada baseado nos dados fornecidos de vazão. O método a ser usado é o método de Conti-Varlet. A formulação deste método está disponível no livro-texto do curso (Souza, Z., Santos, A. H. M e Bortoni, E. C.  **Centrais Hidrelétricas: Implantação e Comissionamento**, 2a. Edição, Editora Interciência.). Para este cálculo o grupo deverá:
+        
+   - Usar o programa disponibilizado pelo livro-texto do curso ou implementar o método em uma linguagem de programação da escolha do grupo. Caso o grupo escolha a segunda alternativa, **o algoritmo programado deverá ser enviado ao repositório via *upload***;
+       
+   - Análisar o resultado obtido de vazão regularizada e comparar este resultado com as vazões firme e de projeto calculados anteriormente;
         
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
 Este projeto deverá ser feito neste arquivo até o dia **23/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
