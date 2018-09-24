@@ -53,7 +53,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
                                                               Figura 1: Fluvigrama semanal.
                                                               
                                                               
-    Código fluviogramas XXXXXXXXX[Código Fluviogramas]
+    [Código fluviogramas](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/a_mediasVF.m)
     
     
   - Cada grupo deverá realizar uma caracterização estatística destes dados. Para a caracterização dos dados, o grupo deverá utilizar de programação, onde a linguagem de programação é de livre escolha do grupo. **O algoritmo programado deverá ser enviado ao repositório via *upload*. Não será permitida a utilização de planilhas excel ou de programas já feitos**. Os seguintes itens deverão ser respondidos neste documento:
@@ -75,7 +75,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        + Vale ressaltar que todos os fluviogramas são compostos pelas médias dos valores de vazão nos períodos referentes.
        
-       Código de Fluviograma XXXXXXXXX[Código Fluviogramas]
+       [Código fluviogramas](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/a_mediasVF.m)
        
        - Curva de duração de vazões;
        
@@ -84,7 +84,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        ![Teste de legenda de imagem](/imagens2/curvadeduracaodevazoes.png)
        Figura 4: Curva de duração de vazões.
        
-       Código Curva de Duração de vazão XXXXXXXXXX [Código Curva de duração de vazão]
+       [Código Curva de Duração de vazão](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/cdvVF.m)
        
        + Do ponto de vista computacional, o código conta quantas vezes uma vazão ocorreu ou foi superada, em seguida ele transforma este número em uma porcentagem o dividindo pelo número total de vazões disponíveis. Assim, é possível plotar o gráfico com a frequência de ocorrencia percentual no eixo x e a vazão referente no eixo y.
        
@@ -118,7 +118,9 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        [Código  Vazão regular](https://github.com/VicotorMCS/Grupo-1/blob/master/c%C3%B3digos%20finais/vazaoregular.m)
        + Ao executar o programa obteve-se que o período crítico teve início em 06 de março de 1968 e terminou em 03 de janeiro de 2001.
        + Para testar a validade do resultado obtido foi confeccionado outro código, desta vez seguindo o passo a passo exposta na página 91 do livro "Centrais Hidrelétricas, implantação e comissionamento" do zulcy de Souza segunda edição. Tal código obteve a data de início de 12 de março de 1968 e termina em 09 de janeiro de 2001.
-       [Código  Período Crítico](https://github.com/VicotorMCS/Grupo-1/blob/master/c%C3%B3digos%20finais/periodocritico.m)
+       
+       [Código  Período Crítico](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/periodocritico.m)
+       
        + A diferença observada pode ser explicada , pois o primeiro código realiza todos os cálculos em semanas e depois converte o resultado para uma data específica de modo que pode haver uma pequena variação no dia. Porém os resultados apresentam exatamente o mesmo mês de início e termino de modo a corroborar com sua validade. 
         
        - Determinação de períodos seco e úmido;
@@ -126,11 +128,12 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        + Para determinação do período seco e período úmido, foi realizada a média das vazões em cada mês do ano de modo a criar um "ano médio" no qual é possível identificar o período seco e o período úmido. A figura 7 apresenta tal gráfico.
        
        ![Teste de legenda de imagem](/imagens2/periodosecoumido.png)
+       
         Figura 7: Período seco e Período Úmido
        
        + A partir do gráfico temos que o período umido corresponde aos meses de abril a setembro e o período seco corresponde aos meses de outubro a março.
        
-      Codigo XXXXXXXX [Código  período seco e período úmido]
+      [Código  período seco e período úmido](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/periodosecoeumido.m)
       
   - Determinação de valores extremos;
        
@@ -223,7 +226,8 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
 | 2013 | 4655 | 28 
 
    + Uma outra utilizada das vazões máximas e mínimas está relacionado com o conceito de risco inerente à estimativa. Tal conceito é  aplicado em implantação de Centrais Hidrelétricas.
-      Codigo XXXXXXXX Valores Extremos
+   
+      [Valores Extremos](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/valores_extremos_maximos_minimos.m)
       
       
 - Estimativa da vazão firme e da vazão de projeto para dimensionamento de uma central hidrelétrica;
@@ -258,12 +262,14 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
     + O código criado complementa os resultados obtidos no código do diagrama de rippl traçando duas retas paralelas a reta base. Tais retas tangenciam a curva de rippl no ponto onde o volume do reservatório será mínimo e no ponto onde será máximo conforme pode ser visto na figura 9 (reta azul tangencia o máximo volume e a reta vermelha o mínimo).
     
     ![Teste de legenda de imagem](/imagens2/diagramaderipplcritico.png)
+    
     Figura 9: Retas suporte para o método de Contir-Varlet
     
     + Além de indicar o ínicio e o término do período crítico, estas retas nos permitem calcular o volume útil do reservatório que será a distância entre elas.
     + Assim, conforme o método de Conti-Varlet, a curva de rippl foi deslocada para cima e traçou-se a reta de vazão regularizada para o projeto. Vale ressaltar que o volume do reservatório será máximo quando a reta de vazão regularizada tocar a curva de rippl e o volume será zero quando a reta tocar a curva deslocada. A figura 10 apresenta o gráfico do método de Conti-Varlet.
     
     ![Teste de legenda de imagem](/imagens2/contivarlet.png)
+    
     Figura 10: gráfico do método de Conti-Varlet.
     
     + Mesmo que a reta de vazão regularizada pareça tocar a curva deslocada, ela não toca (vide cálculo presente no código). 
