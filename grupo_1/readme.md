@@ -99,13 +99,14 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        + Assim, multiplicando as vazões pela equação acima, foi plotado o gráfico da curva de duração de potências.
        
        ![Teste de legenda de imagem](/imagens2/curvadeduracaodepotencias.png)
+       
        Figura 5: Curva de duração de potência.
+       
+       [Código Curva de duração de potência](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/cdvVF.m)
        
       - Diagrama de Rippl;    
        
-       ![Teste de legenda de imagem](/imagens2/rippl.jpg)
-       
-       [Código Curva de duração de potência](https://github.com/VicotorMCS/Grupo-1/blob/master/c%C3%B3digos%20finais/cdvVF.m)   
+       ![Teste de legenda de imagem](/imagens2/rippl.jpg)   
        
        Figura 6: Diagrama de Rippl.
        
