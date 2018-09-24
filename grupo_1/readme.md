@@ -109,7 +109,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        Figura 6: Diagrama de Rippl.
        
-       Codigo Rippl [https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/DiagramadeRipplVF.m]
+       [Codigo Rippl](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/DiagramadeRipplVF.m)
        
        - Determinação do período crítico;
        
