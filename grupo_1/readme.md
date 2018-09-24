@@ -49,7 +49,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
   
     + Como a disposição de dados disponibilizada para o grupo foi diária, desenvolveu-se um código no software MatLab que organizou os dados de vazão em médias semanais. Tais médias foram utilizadas para plotar o fluviograma do curso hídrico que pode ser visto na figura a seguir.
     
-    ![Teste de legenda de imagem](/imagens2/fluviogramasemanal.png)
+    ![Teste de legenda de imagem](fluviogramasemanal.png)
                                                               Figura 1: Fluvigrama semanal.
                                                               
                                                               
@@ -65,11 +65,11 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
          +Assim como no caso semanal, foram trazados os fluviogramas anuais e decenais que podem ser vistos nas figuras 2 e 3.
        
-       ![Teste de legenda de imagem](/imagens2/fluviogramaanual1.png)
+       ![Teste de legenda de imagem](fluviogramaanual1.png)
        
        Figura 2:fluviograma anual.
        
-       ![Teste de legenda de imagem](/imagens2/fluviogramadecenal.png)
+       ![Teste de legenda de imagem](fluviogramadecenal.png)
        
        Figura 3:fluviograma decenal
        
@@ -81,7 +81,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        + Em seguida foi confeccionada a curva de duração de vazões que relaciona a frequência de ocorrência de um determinado valor de vazão com o valor em si. A figura 4 apresenta a curva plotada.
        
-       ![Teste de legenda de imagem](/imagens2/curvadeduracaodevazoes.png)
+       ![Teste de legenda de imagem](curvadeduracaodevazoes.png)
        Figura 4: Curva de duração de vazões.
        
        [Código Curva de Duração de vazão](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/cdvVF.m)
@@ -92,11 +92,11 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        + De posse da curva de duração de vazão é possível convertê-la na curva de duração de potência a partir da equação:
        
-       ![Teste de legenda de imagem](/imagens2/eqp.png)
+       ![Teste de legenda de imagem](eqp.png)
        
        + Assim, multiplicando as vazões pela equação acima, foi plotado o gráfico da curva de duração de potências.
        
-       ![Teste de legenda de imagem](/imagens2/curvadeduracaodepotencias.png)
+       ![Teste de legenda de imagem](curvadeduracaodepotencias.png)
        
        Figura 5: Curva de duração de potência.
        
@@ -104,7 +104,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
       - Diagrama de Rippl;    
        
-       ![Teste de legenda de imagem](/imagens2/rippl.jpg)   
+       ![Teste de legenda de imagem](rippl.jpg)   
        
        Figura 6: Diagrama de Rippl.
        
@@ -115,7 +115,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
       + O período crítico foi calculado a partir do diagrama de rippl e corresponde ao período em que o reservatório saiu do maior volume disponível para o menor valor durante toda a série de dados. 
        + O código desenvolvido comparou os valores de volume acumulado na curva de rippl com a curva base traçada (curva de inclinação contante que liga o primeiro valor de volume acumulado ao último) de modo a encontrar os valores mais distantes tanto positivamente (maior volume) quanto negativamente (menor). Tais valores definem o início e o término do período crítico.
        
-       aaaa[Código  Vazão regular](https://github.com/VicotorMCS/Grupo-1/blob/master/c%C3%B3digos%20finais/vazaoregular.m)
+       [Código  Vazão regular](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/vazaoregular.m)
        
        + Ao executar o programa obteve-se que o período crítico teve início em 06 de março de 1968 e terminou em 03 de janeiro de 2001.
        + Para testar a validade do resultado obtido foi confeccionado outro código, desta vez seguindo o passo a passo exposta na página 91 do livro "Centrais Hidrelétricas, implantação e comissionamento" do zulcy de Souza segunda edição. Tal código obteve a data de início de 12 de março de 1968 e termina em 09 de janeiro de 2001.
@@ -128,7 +128,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        + Para determinação do período seco e período úmido, foi realizada a média das vazões em cada mês do ano de modo a criar um "ano médio" no qual é possível identificar o período seco e o período úmido. A figura 7 apresenta tal gráfico.
        
-       ![Teste de legenda de imagem](/imagens2/periodosecoumido.png)
+       ![Teste de legenda de imagem](periodosecoumido.png)
        
         Figura 7: Período seco e Período Úmido
        
@@ -237,7 +237,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
   
   Vazão firme, ocorre em 95% das vezes. Dado obtido utilizando a curva de duração
 
-  ![Teste de legenda de imagem](/imagens2/vfirme.jpg)
+  ![Teste de legenda de imagem](vfirme.jpg)
   
   Figura 8: Vazão  firme. 
   
@@ -262,14 +262,14 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
     + Optou-se pela confecção de um programa no MatLab para execussão do método de Conti-Varlet e assim obter o valor da vazão regularizada. 
     + O código criado complementa os resultados obtidos no código do diagrama de rippl traçando duas retas paralelas a reta base. Tais retas tangenciam a curva de rippl no ponto onde o volume do reservatório será mínimo e no ponto onde será máximo conforme pode ser visto na figura 9 (reta azul tangencia o máximo volume e a reta vermelha o mínimo).
     
-    ![Teste de legenda de imagem](/imagens2/diagramaderipplcritico.png)
+    ![Teste de legenda de imagem](diagramaderipplcritico.png)
     
     Figura 9: Retas suporte para o método de Contir-Varlet
     
     + Além de indicar o ínicio e o término do período crítico, estas retas nos permitem calcular o volume útil do reservatório que será a distância entre elas.
     + Assim, conforme o método de Conti-Varlet, a curva de rippl foi deslocada para cima e traçou-se a reta de vazão regularizada para o projeto. Vale ressaltar que o volume do reservatório será máximo quando a reta de vazão regularizada tocar a curva de rippl e o volume será zero quando a reta tocar a curva deslocada. A figura 10 apresenta o gráfico do método de Conti-Varlet.
     
-    ![Teste de legenda de imagem](/imagens2/contivarlet.png)
+    ![Teste de legenda de imagem](contivarlet.png)
     
     Figura 10: gráfico do método de Conti-Varlet.
     
@@ -277,7 +277,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
     + Em seguida realizou-se o processo inverso ao realizado durante todo o estudo, transformou-se o volume acumulado presente na reta de vazão regularizada em um valor de vazão que estará disponível durante todos os períodos (vazão regular). Desse modo, obteve-se o valor de 285,3 m³/s como vazão regular.
     + A figura 11 apresenta o fluxograma semanal para a massa de dados com a reta de vazão regular.
     
-    ![Teste de legenda de imagem](/imagens2/vazaoregular.png)
+    ![Teste de legenda de imagem](vazaoregular.png)
     
     Figura 11: Comparação da vazão regular com o fluxograma semanal.
     
