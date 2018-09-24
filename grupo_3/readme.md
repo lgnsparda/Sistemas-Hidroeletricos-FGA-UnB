@@ -256,13 +256,26 @@ Os valores extremos são determinados de acordo com os valores de mínimo e máx
 
 A vazão de projeto é a vazão utilizada para dimensionamento da central hidrelétrica, deve ser escolhida para não causar desperdício do recurso hídrico ou superdimensionamento do mesmo, corresponde a uma frequência de 30% a 40%. Considerando a curva de duração de vazões e a média entre as frequências, a vazão de projeto adotada será de 277,1m³/s para aproximadamente 35% de frequência.
 Já a vazão firme, é definida como  a vazão que possui uma incidência de no mínimo 95%, ou seja, pela curva de duração de vazões a vazão firme será de 164,8m³/s.
-
       
-   - Cálculo da vazão regularizada: O grupo deverá fazer um cálculo da vazão regularizada baseado nos dados fornecidos de vazão. O método a ser usado é o método de Conti-Varlet. A formulação deste método está disponível no livro-texto do curso (Souza, Z., Santos, A. H. M e Bortoni, E. C.  **Centrais Hidrelétricas: Implantação e Comissionamento**, 2a. Edição, Editora Interciência.). Para este cálculo o grupo deverá:
+  - Cálculo da vazão regularizada: O grupo deverá fazer um cálculo da vazão regularizada baseado nos dados fornecidos de vazão. O método a ser usado é o método de Conti-Varlet. A formulação deste método está disponível no livro-texto do curso (Souza, Z., Santos, A. H. M e Bortoni, E. C.  **Centrais Hidrelétricas: Implantação e Comissionamento**, 2a. Edição, Editora Interciência.). Para este cálculo o grupo deverá:
+   
+O método de Conti - Varlet, derivado do diagrama de Rippl, determina para um dado volume útil inicial as vazões regularizadas. Com base no livro texto, o método pode ser definido a partir do gráfico de Rippl, o volume útil e com as vazões regularizadas parciais.
         
    - Usar o programa disponibilizado pelo livro-texto do curso ou implementar o método em uma linguagem de programação da escolha do grupo. Caso o grupo escolha a segunda alternativa, **o algoritmo programado deverá ser enviado ao repositório via *upload***;
        
    - Análisar o resultado obtido de vazão regularizada e comparar este resultado com as vazões firme e de projeto calculados anteriormente;
+   
+Pode-se inferir do gráfico de Rippl que o volume útil do é de *3,4508 x 10^10m³*. O volume útil do reservatório objetiva regularizar a vazão em determinada seção do rio, armazenando esse excesso nos períodos chuvosos e utilizando nos períodos de estiagem, a partir do volume útil é possível calcular a vazão regularizada.
+
+Utilizando o software Centrais Hidrelétricas do livro texto proposto nesta disciplina que utiliza o método de Conti-Varlet, foi encontrado o valor de vazão média do histórico de 230,82 m³/s. Este valor é maior do que a vazão firme e menor do que a vazão de projeto calculada.
+
+
+![software](https://user-images.githubusercontent.com/42543898/45936019-fb281b80-bf87-11e8-9352-368a50602569.jpeg)
+
+O gráfico a seguir apresenta o resultado do método de Conti - Varlet.
+
+![8 diagrama conti varlet](https://user-images.githubusercontent.com/42543898/45936000-d7fd6c00-bf87-11e8-9c14-a44b87c78f2c.jpg)
+
         
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
 Este projeto deverá ser feito neste arquivo até o dia **23/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
