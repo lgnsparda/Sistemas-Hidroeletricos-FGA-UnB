@@ -174,7 +174,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
   
     + Como a disposição de dados disponibilizada para o grupo foi diária, desenvolveu-se um código no software MatLab que organizou os dados de vazão em médias semanais. Tais médias foram utilizadas para plotar o fluviograma do curso hídrico que pode ser visto na figura a seguir.
     
-    ![Teste de legenda de imagem](fluviogramasemanal.png)
+    ![Teste de legenda de imagem](imagens2/fluviogramasemanal.png)
                                                               Figura 1: Fluvigrama semanal.
                                                               
                                                               
@@ -190,11 +190,11 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
          +Assim como no caso semanal, foram trazados os fluviogramas anuais e decenais que podem ser vistos nas figuras 2 e 3.
        
-       ![Teste de legenda de imagem](fluviogramaanual1.png)
+       ![Teste de legenda de imagem](imagens2/fluviogramaanual1.png)
        
        Figura 2:fluviograma anual.
        
-       ![Teste de legenda de imagem](fluviogramadecenal.png)
+       ![Teste de legenda de imagem](imagens2/fluviogramadecenal.png)
        
        Figura 3:fluviograma decenal
        
@@ -206,7 +206,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        + Em seguida foi confeccionada a curva de duração de vazões que relaciona a frequência de ocorrência de um determinado valor de vazão com o valor em si. A figura 4 apresenta a curva plotada.
        
-       ![Teste de legenda de imagem](curvadeduracaodevazoes.png)
+       ![Teste de legenda de imagem](imagens2/curvadeduracaodevazoes.png)
        Figura 4: Curva de duração de vazões.
        
        [Código Curva de Duração de vazão](https://github.com/lgnsparda/Sistemas-Hidroeletricos-FGA-UnB/blob/master/grupo_1/c%C3%B3digos%20finais/cdvVF.m)
@@ -217,11 +217,11 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        + De posse da curva de duração de vazão é possível convertê-la na curva de duração de potência a partir da equação:
        
-       ![Teste de legenda de imagem](eqp.png)
+       ![Teste de legenda de imagem](imagens2/eqp.png)
        
        + Assim, multiplicando as vazões pela equação acima, foi plotado o gráfico da curva de duração de potências.
        
-       ![Teste de legenda de imagem](curvadeduracaodepotencias.png)
+       ![Teste de legenda de imagem](imagens2/curvadeduracaodepotencias.png)
        
        Figura 5: Curva de duração de potência.
        
@@ -229,7 +229,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
       - Diagrama de Rippl;    
        
-       ![Teste de legenda de imagem](rippl.jpg)   
+       ![Teste de legenda de imagem](imagens2/rippl.jpg)   
        
        Figura 6: Diagrama de Rippl.
        
@@ -253,9 +253,9 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
        
        + Para determinação do período seco e período úmido, foi realizada a média das vazões em cada mês do ano de modo a criar um "ano médio" no qual é possível identificar o período seco e o período úmido. A figura 7 apresenta tal gráfico.
        
-       ![Teste de legenda de imagem](periodosecoumido.png)
+       ![Teste de legenda de imagem](imagens2/periodosecoumido.png)
        
-        Figura 7: Período seco e Período Úmido
+       Figura 7: Período seco e Período Úmido
        
        + A partir do gráfico temos que o período umido corresponde aos meses de abril a setembro e o período seco corresponde aos meses de outubro a março.
        
@@ -362,7 +362,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
   
   Vazão firme, ocorre em 95% das vezes. Dado obtido utilizando a curva de duração
 
-  ![Teste de legenda de imagem](vfirme.jpg)
+  ![Teste de legenda de imagem](imagens2/vfirme.jpg)
   
   Figura 8: Vazão  firme. 
   
@@ -374,7 +374,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
   
      +Dessa forma nossa vazão de projeto(Qp)  deve ser menor ou igual a vazão vazão média ao longo do tempo(QMLT), de acordo com a condição   abaixo;
 
-  ![Teste de legenda de imagem](fig2.JPG)
+  ![Teste de legenda de imagem](imagens2/fig2.JPG)
   
      + Como a nossa vazão necessária é igual à vazão ao longo do tempo, assumimos como a nossa vazão de projeto a vazão média ao longo do       tempo.
   
@@ -387,14 +387,14 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
     + Optou-se pela confecção de um programa no MatLab para execussão do método de Conti-Varlet e assim obter o valor da vazão regularizada. 
     + O código criado complementa os resultados obtidos no código do diagrama de rippl traçando duas retas paralelas a reta base. Tais retas tangenciam a curva de rippl no ponto onde o volume do reservatório será mínimo e no ponto onde será máximo conforme pode ser visto na figura 9 (reta azul tangencia o máximo volume e a reta vermelha o mínimo).
     
-    ![Teste de legenda de imagem](diagramaderipplcritico.png)
+    ![Teste de legenda de imagem](imagens2/diagramaderipplcritico.png)
     
     Figura 9: Retas suporte para o método de Contir-Varlet
     
     + Além de indicar o ínicio e o término do período crítico, estas retas nos permitem calcular o volume útil do reservatório que será a distância entre elas.
     + Assim, conforme o método de Conti-Varlet, a curva de rippl foi deslocada para cima e traçou-se a reta de vazão regularizada para o projeto. Vale ressaltar que o volume do reservatório será máximo quando a reta de vazão regularizada tocar a curva de rippl e o volume será zero quando a reta tocar a curva deslocada. A figura 10 apresenta o gráfico do método de Conti-Varlet.
     
-    ![Teste de legenda de imagem](contivarlet.png)
+    ![Teste de legenda de imagem](imagens2/contivarlet.png)
     
     Figura 10: gráfico do método de Conti-Varlet.
     
@@ -402,7 +402,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
     + Em seguida realizou-se o processo inverso ao realizado durante todo o estudo, transformou-se o volume acumulado presente na reta de vazão regularizada em um valor de vazão que estará disponível durante todos os períodos (vazão regular). Desse modo, obteve-se o valor de 285,3 m³/s como vazão regular.
     + A figura 11 apresenta o fluxograma semanal para a massa de dados com a reta de vazão regular.
     
-    ![Teste de legenda de imagem](vazaoregular.png)
+    ![Teste de legenda de imagem](imagens2/vazaoregular.png)
     
     Figura 11: Comparação da vazão regular com o fluxograma semanal.
     
