@@ -154,7 +154,7 @@ O projeto hidrológico tem como objetivo apresentar cálculos hidrológicos com 
   Para realização do estudo, os 30316 dados de vazão diários referentes a 82 anos entre 1931 - 2013 foram organizados em dados semanais para melhor visualização. Totalizando 4333 médias semanais.
 O fluviograma representa essa variação da vazão ao longo do tempo, obtendo-se assim o comportamento de um rio durante determinado período, podendo assim identificar o período chuvoso e o período de estiagem.
 
-![5 curva de duracao de potencia](https://user-images.githubusercontent.com/42543898/45934718-6ff35980-bf78-11e8-87cb-d68a41efca93.jpg)
+![1 fluviograma semanal](https://user-images.githubusercontent.com/42543898/46415970-dad12d00-c6fc-11e8-8891-c869600a19d3.jpg)
 
 A Figura 1 apresenta o comportamento da vazão ao longo dos 82 anos, a análise dos dados permite observar que os maiores valores de vazão encontram-se entre as semanas 2737 e 3500, alcançando um valor médio de 1926 m³/s e o menor na semana 2864 com valor médio de 38,71m³/s.
   
