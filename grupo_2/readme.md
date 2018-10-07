@@ -165,7 +165,8 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
        
        Com o valor obtido para o diâmetro hidráulico, estabelecemos as linhas piezométrica e de energia, como pode ser visto na Figura 1 onde há uma relação das linhas com o desenho técnico e as respectivas cotas.
        
-       ![Desenho](desenho.jpg)
+       ![Desenho](desenho_esquematico.jpg)
+       Figura 1 - Desenho esquemático.
         
   - Determinação do semiperíodo da onda de pressão para dimensionamento do conduto fechado. Cada grupo poderá fazer as considerações que achar necessárias;
   
