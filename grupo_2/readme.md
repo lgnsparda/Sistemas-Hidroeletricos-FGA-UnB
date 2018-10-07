@@ -162,6 +162,10 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
        - Valores de cota de altura;
        - Alturas de queda;
        - Linhas piezométrica e de energia;
+       
+       Com o valor obtido para o diâmetro hidráulico, estabelecemos as linhas piezométrica e de energia, como pode ser visto na Figura 1 onde há uma relação das linhas com o desenho técnico e as respectivas cotas.
+       
+       ![Desenho](desenho.jpg)
         
   - Determinação do semiperíodo da onda de pressão para dimensionamento do conduto fechado. Cada grupo poderá fazer as considerações que achar necessárias;
   
