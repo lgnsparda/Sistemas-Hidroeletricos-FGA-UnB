@@ -107,6 +107,27 @@ Este projeto deverá ser feito neste arquivo até o dia **23/09/2018**. Pedidos 
 
 O projeto do conduto consistirá na realização e apresentação de cálculos de condutos e canais para a central hidrelétrica. 
 
+   Podemos estimar o valor do coeficiente de Chézy através da fórmula de Manning como sendo:
+  
+  ![Equação 1](eq1.gif)
+  
+   Tomando o material das paredes do conduto como sendo concreto com acabamento ordinário, o valor tabelado do coeficiente de Gauckler-Manning para a rugosidade do conduto é de 0,014.
+  Se considerarmos o escoamento como forçado, ou seja, preenchendo toda a área interna da tubulação, temos que:
+  
+  ![Equação 2](eq2.gif)
+  
+   Assim, podemos reescrever o coeficiente de Chézy para o escoamento em questão como:
+  
+  ![Equação 3](eq3.gif)
+  
+   Substituindo na fórmula de Chézy em função da vazão:
+  
+  ![Equação 4](eq4.gif)
+  
+   Podemos assumir o valor da declividade do conduto através de uma aproximação razoável, sendo observados outros projetos de parâmetros semelhantes. Para o nosso caso, foi estimado um ângulo de 25° entre a horizontal e o fim do canal, o que nos leva a um valor para o coeficiente de inclinação de:
+  
+  ![Equação 5](eq5.gif)
+
 
   - Projeto do canal para a futura usina hidrelétrica utilizando as fórmulas de Chezy, determinando de acordo com os dados de vazão de cada grupo:
      
@@ -114,11 +135,28 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
        
        - O diâmetro hidráulico da seção;
        
+         Substituindo os valores obtidos na fórmula de Chézy, e considerando a vazão média estimada no projeto do aproveitamento (490,67 m³/s), temos:
+       
+       ![Equação 6](eq6.gif)
+       
+       Resolvendo esta equação, obtemos r = 1,84 m.
+       
+       Logo, o diâmetro hidráulico é de 3,68 m.
+       
        - Velocidade da água no canal;
+       
+         Substituindo o valor do raio na equação da continuidade, temos:
+       
+       ![Equação 7](eq7.gif)
+
+       ![Equação 8](eq8.gif)
+
+       ![Equação 9](eq9.gif)
        
        - Vazão de água no canal;
        
-      
+         Para fins de cálculos, foi assumido que a vazão no canal é a mesma vazão média medida no rio, no caso 490,67 m³/s.
+       
   - Baseado nos valores de queda dispostos no projeto do aproveitamento, o grupo deverá inserir no desenho esquemático deste projeto os seguintes itens:
         
        - Valores de cota de altura;
@@ -127,9 +165,88 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
         
   - Determinação do semiperíodo da onda de pressão para dimensionamento do conduto fechado. Cada grupo poderá fazer as considerações que achar necessárias;
   
+    Com o ângulo estimado de 25° entre a horizontal e o fim do canal, pode ser calculado o comprimento do tubo:
+     
+     ![Equação 9.1](eq9.1.gif)
+  
+     Para o cálculo do tempo de parada do escoamento (tv), utilizou-se a fórmula empírica de Mendiluce:
+     
+     ![Equação 10](eq10.gif)
+     
+     ![Equação 11](eq11.gif)
+     
+     ![Equação 12](eq12.gif)
+     
+     
+       Sendo, 
+       
+      L = comprimento do conduto;
+      
+      u = velocidade do escoamento;
+      
+      H = altura de queda;
+      
+      K = um coeficiente, tal que:
+      
+	   K = 2, quando L < 500m 
+		  
+	   K = 1,5, quando 500m < L < 1500m
+		  
+	   K = 1, quando L > 1500m
+
+      Calculando a Celeridade (Vs), obteve-se:
+      
+     ![Equação 13](eq13.gif)
+     
+     ![Equação 14](eq14.gif)
+     
+     ![Equação 15](eq15.gif)
+     
+       Sendo,
+       
+     Km = 5, para o concreto;
+     
+     D = diâmetro do conduto;
+     
+     e = espessura do conduto. Adotou-se a espessura do conduto como sendo de 1cm.
+     
+     Para o cálculo do semiperíodo (T), obteve-se:
+     
+     ![Equação 16](eq16.gif)
+     
+     ![Equação 17](eq17.gif)
+     
+     ![Equação 18](eq18.gif)
+     
+     Como tv>T, essa manobra é classificada como manobra lenta.
+  
   - Determinação de valores de golpe de aríete positivo máximo;
   
+    O valor do golpe de aríete positivo máximo (hs+) obtido foi de:
+    
+     ![Equação 19](eq19.gif)
+     
+     ![Equação 20](eq20.gif)
+     
+     ![Equação 21](eq21.gif)
+  
   - Determinação de valores do golpe de aríete aceitável;
+  
+    Como nossa central é de baixa queda, calculou-se o valor de Kb:
+    
+     ![Equação 22](eq22.gif)
+     
+     ![Equação 23](eq23.gif)
+     
+     ![Equação 24](eq24.gif)
+     
+    Com isso, o valor do golpe de aríete aceitável (hs) será:
+     
+     ![Equação 25](eq25.gif)
+     
+     ![Equação 26](eq26.gif)
+     
+     ![Equação 27](eq27.gif)
   
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
 Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
