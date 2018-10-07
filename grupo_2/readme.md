@@ -188,11 +188,11 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
       
       K = um coeficiente, tal que:
       
-	   K = 2, quando L < 500m 
+	 K = 2, quando L < 500m 
+	
+	 K = 1,5, quando 500m < L < 1500m
 		  
-	   K = 1,5, quando 500m < L < 1500m
-		  
-	   K = 1, quando L > 1500m
+	 K = 1, quando L > 1500m
 
       Calculando a Celeridade (Vs), obteve-se:
       
