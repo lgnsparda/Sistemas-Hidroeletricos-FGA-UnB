@@ -285,19 +285,88 @@ Este projeto deverá ser feito neste arquivo até o dia **23/09/2018**. Pedidos 
 
 O projeto do conduto consistirá na realização e apresentação de cálculos de condutos e canais para a central hidrelétrica. 
 
+O projeto de conduto em centrais hidrelétricas leva em consideração o tipo de arranjo, a disposição de seus componentes e suas características. Os condutos são utilizados para direcionar a água até a casa de máquinas, proporcionando a rotação da turbina e assim gerar energia pelo gerador acoplado. 
+Por serem utilizados em sistemas de baixa ou alta pressão, essa grandeza deve ser monitorada, pois efeitos transientes hidráulicos indesejáveis podem acontecer.
+O conduto pode ser forçado, quando apresenta contato total com fluido com as paredes internas do conduto, ou livre, quando o fluido apresenta contato parcial com as paredes internas.
 
   - Projeto do canal para a futura usina hidrelétrica utilizando as fórmulas de Chezy, determinando de acordo com os dados de vazão de cada grupo:
      
-       -A melhor forma geométrica de seção para o canal em questão;
+    #### A melhor forma geométrica de seção para o canal em questão;
+   
+Sabendo que quando a seção do canal é não-circular a probabilidade de escoamentos secundários ocorrerem é alta, a seção do canal adotada para este projeto será circular e conduto forçado.
+              
+   #### O diâmetro hidráulico da seção e Velocidade da água no canal;
        
-       - O diâmetro hidráulico da seção;
+De acordo com “Diretrizes para estudos e projetos de Pequenas Centrais Hidrelétricas” da Eletrobrás considera-se o conduto forçado com mesmo diâmetro ao longo de todo o comprimento.
+O diâmetro econômico é o diâmetro limite que promove um benefício energético sem comprometer o custo associado.
+
+![1 diametroeco](https://user-images.githubusercontent.com/42543898/46588309-87e6d500-ca70-11e8-8f02-8f276fb7061d.gif)
+
+
+Considerando a vazão de projeto com probabilidade de 95%, do projeto de hidrológico, a vazão a ser adotada será de 277,1m³/s
+Para cálculo do diâmetro econômico adota-se a fórmula de Bondshu, para PCH admite-se que *Ht* como 1,2 da altura bruta.
+Substituindo na fórmula temos que o diâmeto será de:
+
+![2 diamtroeco](https://user-images.githubusercontent.com/42543898/46588300-6ab20680-ca70-11e8-9d77-b1959564c1a1.gif)
+
+Assumindo o diâmetro de *10m* temos a área de:
+
+![3 area](https://user-images.githubusercontent.com/42543898/46588366-53274d80-ca71-11e8-87a3-a50aad662cd0.gif)
+
+Já a velocidade será obtida pela divisão da vazão com a área de seção:
+
+
+![4 velocidade](https://user-images.githubusercontent.com/42543898/46588399-f6786280-ca71-11e8-8a8d-dababb0436a2.gif)
+
+A velocidade obtida de acordo com “Diretrizes para estudos e projetos Pequenas Centrais Hidrelétricas” para tubulação de concreto é de 3,0m/s. Logo a velocidade não se enquadra, assim é necessário realizar o cálculo  do número de canais necessários:
+
+
+![5 canais](https://user-images.githubusercontent.com/42543898/46588409-3b03fe00-ca72-11e8-9085-2b0d86d23d73.gif)
+
+Dessa forma, utilizando 3 canais para margem de erro a vazão e velocidade máxima de cada canal será respectivamente de:
+
+![6 qcanal](https://user-images.githubusercontent.com/42543898/46588433-9b933b00-ca72-11e8-8153-0bf54b3bd810.gif)
+
+![7 velocidade](https://user-images.githubusercontent.com/42543898/46588466-12303880-ca73-11e8-890e-c2d9432010b3.gif)
        
-       - Velocidade da água no canal;
-       
-       - Vazão de água no canal;
-       
+ Para definição do diâmetro hidráulico pelas Fórmulas de Chezy, e considerando o escoamento em regime permanente, pela fórmula de Chezy para vazão:
+ 
+ ![8 chezyvazao](https://user-images.githubusercontent.com/42543898/46588486-98e51580-ca73-11e8-9d75-a982ecabda88.gif)
+
+Partindo do coeficiente de Chezy, dado por:
+
+![9 chezy](https://user-images.githubusercontent.com/42543898/46588495-d8abfd00-ca73-11e8-8751-2e268b5a5d72.gif)
+
+Onde 8n* é o coeficiente de rugosidade de Manning para o material, e para tubos de concreto é considerado 0,012, assim temos:
+
+![10 chezy](https://user-images.githubusercontent.com/42543898/46588509-1a3ca800-ca74-11e8-9963-6200a6231012.gif)
+
+Fazendo as substituições necessárias na fórmula de Chazy para vazão e isolando-se o *RH*, temos a fórmula simplificada:
+
+![11 rh](https://user-images.githubusercontent.com/42543898/46588540-b2d32800-ca74-11e8-9ef6-49532dc27cea.gif)
+
+Para realização do cálculo do raio hidráulico parâmetros como o comprimento e inclinação devem ser levados em consideração, assim com o comprimento de *85m*:
+
+![12 s0](https://user-images.githubusercontent.com/42543898/46588578-1f4e2700-ca75-11e8-9e28-51bd1c5c50eb.gif)
+
+Assumindo assim uma inclinação de *6,71°*.
+
+Substituindo na fórmula do raio hidráulico temos:
+
+![13 rh](https://user-images.githubusercontent.com/42543898/46588636-114cd600-ca76-11e8-9102-225c4deaabe3.gif)
+
+Com isso temos o valor do diâmetro hidráulico:
+
+
+![14 dh](https://user-images.githubusercontent.com/42543898/46588653-4ce7a000-ca76-11e8-871f-9be6643bbde8.gif)
+
+  #### Vazão de água no canal;
+  
+Cada canal possuirá a vazão de Qcanal = 93,37m³/s.
       
   - Baseado nos valores de queda dispostos no projeto do aproveitamento, o grupo deverá inserir no desenho esquemático deste projeto os seguintes itens:
+  
+  Para o desenho esquemático é necessário determinar parâmetros que vão definir o comportamento do escoamento como:
         
        - Valores de cota de altura;
        - Alturas de queda;
@@ -311,6 +380,7 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
   
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
 Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
+
 
 
 ### Projeto da Turbina
