@@ -291,11 +291,11 @@ O conduto pode ser forçado, quando apresenta contato total com fluido com as pa
 
   - Projeto do canal para a futura usina hidrelétrica utilizando as fórmulas de Chezy, determinando de acordo com os dados de vazão de cada grupo:
      
-    #### A melhor forma geométrica de seção para o canal em questão;
+    ##### A melhor forma geométrica de seção para o canal em questão;
    
 Sabendo que quando a seção do canal é não-circular a probabilidade de escoamentos secundários ocorrerem é alta, a seção do canal adotada para este projeto será circular e conduto forçado.
               
-   #### O diâmetro hidráulico da seção e Velocidade da água no canal;
+   ##### O diâmetro hidráulico da seção e Velocidade da água no canal;
        
 De acordo com “Diretrizes para estudos e projetos de Pequenas Centrais Hidrelétricas” da Eletrobrás considera-se o conduto forçado com mesmo diâmetro ao longo de todo o comprimento.
 O diâmetro econômico é o diâmetro limite que promove um benefício energético sem comprometer o custo associado.
@@ -357,27 +357,91 @@ Substituindo na fórmula do raio hidráulico temos:
 
 Com isso temos o valor do diâmetro hidráulico:
 
-
 ![14 dh](https://user-images.githubusercontent.com/42543898/46588653-4ce7a000-ca76-11e8-871f-9be6643bbde8.gif)
 
-  #### Vazão de água no canal;
+  ##### Vazão de água no canal;
   
 Cada canal possuirá a vazão de Qcanal = 93,37m³/s.
       
   - Baseado nos valores de queda dispostos no projeto do aproveitamento, o grupo deverá inserir no desenho esquemático deste projeto os seguintes itens:
   
-  Para o desenho esquemático é necessário determinar parâmetros que vão definir o comportamento do escoamento como:
+   ##### Valores de cota de altura;
+   ##### Alturas de queda;
+   ##### Linhas piezométrica e de energia;
+   
+   Para o desenho esquemático é necessário determinar parâmetros que vão definir o comportamento do escoamento. Considerando a altura de queda do projeto de aproveitamento e perda de carga:
+  
+- Altura de queda(Hb): 10m;
+- Perda de carga(hp): 0,5;
+- Altura de queda(Z1): 9,8;
         
-       - Valores de cota de altura;
-       - Alturas de queda;
-       - Linhas piezométrica e de energia;
-        
+ Pela equação de Bernoulli, onde a pressão e velocidade de um fluido estão relacionadas,  considerando que a velocidade a jusante e a montante são iguais, temos  
+ 
+ ![15 bernoulli](https://user-images.githubusercontent.com/42543898/46588839-a8b32880-ca78-11e8-901f-b27e3076c67b.gif)
+
+Considerando ainda a pressão a montante igual a pressão atmosférica 1011.325Pa e o peso específico da água 9810N/m³, substituindo na equação de Bernoulli simplificada temos:
+
+![16 pa](https://user-images.githubusercontent.com/42543898/46588864-165f5480-ca79-11e8-8e8f-c07a9f566bb1.gif)
+
+Para obternção da linha piezométrica e a linha de energia, as razões de pressão e peso específico, assim como a de velocidade do escoamento são mostradas a seguir:
+
+![17 razao1](https://user-images.githubusercontent.com/42543898/46588885-63432b00-ca79-11e8-9086-a1707597b788.gif)
+
+![18 razao2](https://user-images.githubusercontent.com/42543898/46588890-76ee9180-ca79-11e8-9328-728037901ad0.gif)
+
+
+![19 razao3](https://user-images.githubusercontent.com/42543898/46588906-cdf46680-ca79-11e8-81fd-562b4609c9d9.gif)
+
+ 
   - Determinação do semiperíodo da onda de pressão para dimensionamento do conduto fechado. Cada grupo poderá fazer as considerações que achar necessárias;
   
+De acordo com as notas de aula, o semiperíodo é definido como o tempo que a onda de pressão leva para deslocar-se da válvula até a barragem, retornando assim após a válvula. O tempo do semiperíodo é determinada por:
+
+![20 celeridade](https://user-images.githubusercontent.com/42543898/46588917-f714f700-ca79-11e8-9d01-abea0a888e6b.gif)
+
+Onde Vs representa a celeridade da onda de pressão, que pode ser obtida pela seguinte equação:
+
+![21 celeridade](https://user-images.githubusercontent.com/42543898/46588930-37747500-ca7a-11e8-8a29-965ff9c68e36.gif)
+
+Para cálculo de Vs, adota-se a espessura mínima do conduto, assumindo que o conduto é de concreto, temos que a espessura mínima é
+
+![22 espessuramin](https://user-images.githubusercontent.com/42543898/46588949-86baa580-ca7a-11e8-9ad5-1853a37f828d.gif)
+
+E sabendo que o valor de Km para o concreto é igual a 0,38, encontramos Vs:
+
+![23 celeridaderesult](https://user-images.githubusercontent.com/42543898/46588997-2f690500-ca7b-11e8-80eb-69a80c5ef125.gif)
+
+Substituindo na equação do semiperíodo temos: 
+
+![24 celeridade](https://user-images.githubusercontent.com/42543898/46589004-414aa800-ca7b-11e8-94df-7261eae1e914.gif)
+
+Assim, o tempo que a onda de pressão levará para deslocar-se da válvula á barragem será 0,19s.
+
   - Determinação de valores de golpe de aríete positivo máximo;
+  
+ O golpe de aríete é um transiente que ocorre sempre que há variação de pressão, ou seja, alteração no fluxo de água. Essas variações de pressão podem causar danos estruturais e acidentes graves, com isso o golpe de aríete é algo a ser mitigado nas instalações.
+A partir do semiperíodo é possível classificar as manobras como:
+
+𝑡𝑣<T: Manobra rápida; 
+𝑡𝑣=T: Manobra crítica; 
+𝑡𝑣>T: Manobra lenta. 
+
+A equação, apresentada abaixo, determina o valor de sobrepressão em uma tubulação:
+
+![25 hs](https://user-images.githubusercontent.com/42543898/46589036-b4ecb500-ca7b-11e8-9838-7a4cb6d3e212.gif)
+
+Logo, para uma manobra segura o *tv* deve ser maior que 0,19s, por segurança o valor a ser adotado será de 3s. Determinado o parâmetro para manobra lenta, assim como o comprimento de 85m do conduto, velocidade de escoamento de 3m/s tem-se:
+
+![26 hsresult](https://user-images.githubusercontent.com/42543898/46589056-ed8c8e80-ca7b-11e8-9202-a2672700704a.gif)
   
   - Determinação de valores do golpe de aríete aceitável;
   
+O golpe de aríete aceitável, denominado também sobrepressão máxima real para uma manobra lenta, é dado por:
+  
+![27 arieteaceitavel](https://user-images.githubusercontent.com/42543898/46589096-54aa4300-ca7c-11e8-900c-672605a341b7.gif)
+
+O golpe de aríete aceitável encontra-se maior que o valor dentro dos limites que de acordo com as “Diretrizes para estudos e projetos Pequenas Centrais Hidrelétricas” o valor de sobrepressão tem limite máximo igual a 0,35Hb. Com isso é necessário medidas para evitar danos, como a instalação de válvulas e chaminés de equilíbrio.
+
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
 Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
