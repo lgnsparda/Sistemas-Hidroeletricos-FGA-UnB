@@ -389,9 +389,11 @@ Para obternção da linha piezométrica e a linha de energia, as razões de pres
 
 ![18 razao2](https://user-images.githubusercontent.com/42543898/46588890-76ee9180-ca79-11e8-9328-728037901ad0.gif)
 
-
 ![19 razao3](https://user-images.githubusercontent.com/42543898/46588906-cdf46680-ca79-11e8-81fd-562b4609c9d9.gif)
 
+ Assim o desenho esquemático é mostrado a seguir:
+ 
+ ![sistemaeq](https://user-images.githubusercontent.com/42543898/46589667-afdf3400-ca82-11e8-850c-240a91221787.JPG)
  
   - Determinação do semiperíodo da onda de pressão para dimensionamento do conduto fechado. Cada grupo poderá fazer as considerações que achar necessárias;
   
