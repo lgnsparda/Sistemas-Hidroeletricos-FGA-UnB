@@ -229,7 +229,7 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
        
        ![Desenho](desenho_esquematico.png)
        
-       Figura 1 - Desenho esquemático.
+       Figura 9 - Desenho esquemático.
         
   - Determinação do semiperíodo da onda de pressão para dimensionamento do conduto fechado. Cada grupo poderá fazer as considerações que achar necessárias;
   
