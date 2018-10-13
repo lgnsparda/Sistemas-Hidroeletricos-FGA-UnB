@@ -56,7 +56,7 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
     
     A avaliação estatística dos dados de vazão observados diariamente, entre os anos de 1931 e 2013, está resumida na Tabela 1 abaixo:
     
-    Tabela 1: Avaliação estatística dos dados de vazão
+    Tabela 1: Avaliação estatística dos dados de vazão.
     
     ![Teste de legenda de imagem](img2.png)
     
@@ -89,6 +89,8 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
   - Desenho esquemático do sistema hidromecânico equivalente;
   
     ![Teste de legenda de imagem](img3.png)
+    
+    Figura 2: Desenho esquemático do sistema hidromecânico equivalente.
   
   - Cada grupo deverá preencher uma ART (Anotação de Responsabilidade Técnica) para:
 
