@@ -11,24 +11,80 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
 
   - Cada grupo terá em sua pasta do repositório um conjunto de dados de vazão que deverá ser usado ao longo deste e dos demais projetos quando necessário;
   
-  - Modelamento do aproveitamento hidrelétrico. Cada grupo deverá mostrar como ficará o sistema hidromecânico equivalente através do cálculo da energia hidráulica média disponível e do trabalho específico. O grupo 2 deverá usar a  altura de cota **de 5 m** para seu aproveitamento hidrelétrico:
+  - Modelamento do aproveitamento hidrelétrico. Cada grupo deverá mostrar como ficará o sistema hidromecânico equivalente através do cálculo da energia hidráulica média disponível e do trabalho específico. O grupo 2 deverá usar a altura de cota **de 5 m** para seu aproveitamento hidrelétrico:
 
        
 
   - Determinação da queda do aproveitamento: O grupo 2 deverá considerar uma perda de **1 m**, onde cada grupo deverá especificar se a central será de baixa ou de alta queda;
   
+    + Como a altura de cota do aproveitamento é baixa, 5 m, deve-se utilizar uma turbina com alta rotação específica, como a Turbina de reação do tipo Kaplan. Com isso, a central hidrelétrica do projeto será classificada como de Baixa Queda.
+  
        
   - Determinação da vazão média de longo tempo baseado nos dados de vazão dados a cada grupo. Cada grupo deverá mostrar como fez este cálculo e as hipóteses adotadas;
   
+    + Para a obtenção da vazão média de longo tempo, foi feita uma média das vazões medidas diariamente ao longo dos anos de 1931 a 2013, usando o software Excel. O valor obtido foi de 490,67 m³/s.
+    
   - Cálculo da potência hidráulica máxima teórica média e da energia máxima teórica média;
+  
+    Para o cálculo da potência hidráulica máxima teórica média, foi usada a seguinte expressão:
+  
+    ![Teste de legenda de imagem](eq9.gif)
+    
+    Considerando H como a altura de cota (Hb) menos a perda (Hp), tem-se:
+    
+    ![Teste de legenda de imagem](eq2.gif)
+    
+    Substituindo os valores de H = 4m, Q = 490,67m³/s e g = 9,81m²/s, temos:
+
+    ![Teste de legenda de imagem](eq3.gif)
+    
+    A energia hidráulica máxima teórica média será dada pela expressão:
+
+    ![Teste de legenda de imagem](eq4.gif)
+    
+    Portanto, ao longo de um dia, a energia teórica máxima média gerada pelo aproveitamento é de:
+    
+    ![Teste de legenda de imagem](eq5.gif)
   
   - Análise dos dados de vazão e energia máxima teórica média;
   
+     A variação da vazão ao longo do tempo pode ser observada no gráfico a seguir:
+  
+    ![Teste de legenda de imagem](img1.png)
+    
+    A avaliação estatística dos dados de vazão observados diariamente, entre os anos de 1931 e 2013, está resumida na tabela a seguir:
+
+    ![Teste de legenda de imagem](img2.png)
+    
+    Como podemos notar, os valores de vazão no rio indicado são altamente inconstantes, possuindo variações bruscas como tendência,  característica observável pelo alto desvio padrão encontrado.
+	  De semelhante modo, a energia que o aproveitamento seria capaz de gerar, com os valores obtidos, é diretamente proporcional à vazão, e, portanto, também seria relativamente inconstante. Essa característica prejudica o empreendimento, seja economicamente, com a geração de pouca energia em períodos de baixa vazão ou com a impossibilidade do aproveitamento dos períodos de vazão muito alta, dado a limitação estabelecida pela potência nominal, seja tecnicamente, pela maior dificuldade de operação da rede. Tal questão pode ser contornada através do dimensionamento de um reservatório que regularize a vazão turbinada, questão essa a ser explorada no arranjo técnico da usina.
+
+
   - Escolha do tipo de central e o arranjo utilizado;
   
+    Assumindo que o aproveitamento em questão se trata de uma produção independente autoprodução ou autônoma, e que a área do reservatório delimitada pelo nível d’água máximo normal é igual ou inferior a 13km², e atende à condição:
+
+    ![Teste de legenda de imagem](eq6.gif)
+  
+    onde P é o perímetro concernente à área delimitada, então esse aproveitamento pode ser classificado como uma Pequena Central Hidrelétrica (PCH), conforme as determinações da Resolução 652 da Agência Nacional de Energia Elétrica (ANEEL).
+    
+    Visto que a potência instalada leva em consideração os valores de vazão médios obtidos, os valores de vazão diários que estão abaixo da média não serão capazes de entregar a potência nominal da instalação. Por esse motivo, o arranjo adotado deverá ser de uma central de acumulação com regularização. Esse arranjo requer reservatórios maiores, de modo a acumular água do rio para produção no período de menor vazão.
+
   - Estimativa da potência instalada;
   
+    A potência instalada pode ser calculada através da expressão:
+
+    ![Teste de legenda de imagem](eq7.gif)
+    
+     Ao negligenciarmos os rendimentos do gerador e da turbina, visto que não conhecemos suas características, e considerarmos a vazão de projeto, Qp, como sendo a vazão média, temos:
+    
+    ![Teste de legenda de imagem](eq8.gif)
+  
+     Visto que será utilizada uma turbina Kaplan. temos que o desenho esquemático do sistema hidromecânico equivalente a ser instalado se encontra na imagem abaixo:
+  
   - Desenho esquemático do sistema hidromecânico equivalente;
+  
+    ![Teste de legenda de imagem](img3.png)
   
   - Cada grupo deverá preencher uma ART (Anotação de Responsabilidade Técnica) para:
 
