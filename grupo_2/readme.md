@@ -28,23 +28,23 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
   
     Para o cálculo da potência hidráulica máxima teórica média, foi usada a seguinte expressão:
   
-    ![Teste de legenda de imagem](eq9.gif)
+    ![Teste de legenda de imagem](eq28.gif)
     
     Considerando H como a altura de cota (Hb) menos a perda (Hp), tem-se:
     
-    ![Teste de legenda de imagem](eq2.gif)
+    ![Teste de legenda de imagem](eq29.gif)
     
     Substituindo os valores de H = 4m, Q = 490,67m³/s e g = 9,81m²/s, temos:
 
-    ![Teste de legenda de imagem](eq3.gif)
+    ![Teste de legenda de imagem](eq30.gif)
     
     A energia hidráulica máxima teórica média será dada pela expressão:
 
-    ![Teste de legenda de imagem](eq4.gif)
+    ![Teste de legenda de imagem](eq31.gif)
     
     Portanto, ao longo de um dia, a energia teórica máxima média gerada pelo aproveitamento é de:
     
-    ![Teste de legenda de imagem](eq5.gif)
+    ![Teste de legenda de imagem](eq32.gif)
   
   - Análise dos dados de vazão e energia máxima teórica média;
   
@@ -64,7 +64,7 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
   
     Assumindo que o aproveitamento em questão se trata de uma produção independente autoprodução ou autônoma, e que a área do reservatório delimitada pelo nível d’água máximo normal é igual ou inferior a 13km², e atende à condição:
 
-    ![Teste de legenda de imagem](eq6.gif)
+    ![Teste de legenda de imagem](eq33.gif)
   
     onde P é o perímetro concernente à área delimitada, então esse aproveitamento pode ser classificado como uma Pequena Central Hidrelétrica (PCH), conforme as determinações da Resolução 652 da Agência Nacional de Energia Elétrica (ANEEL).
     
@@ -74,11 +74,11 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
   
     A potência instalada pode ser calculada através da expressão:
 
-    ![Teste de legenda de imagem](eq7.gif)
+    ![Teste de legenda de imagem](eq34.gif)
     
      Ao negligenciarmos os rendimentos do gerador e da turbina, visto que não conhecemos suas características, e considerarmos a vazão de projeto, Qp, como sendo a vazão média, temos:
     
-    ![Teste de legenda de imagem](eq8.gif)
+    ![Teste de legenda de imagem](eq35.gif)
   
      Visto que será utilizada uma turbina Kaplan. temos que o desenho esquemático do sistema hidromecânico equivalente a ser instalado se encontra na imagem abaixo:
   
