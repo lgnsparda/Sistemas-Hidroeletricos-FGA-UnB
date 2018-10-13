@@ -48,12 +48,16 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
   
   - Análise dos dados de vazão e energia máxima teórica média;
   
-     A variação da vazão ao longo do tempo pode ser observada no gráfico a seguir:
+     A variação da vazão ao longo do tempo pode ser observada no gráfico presente na Figura 1 apresentada abaixo:
   
     ![Teste de legenda de imagem](img1.png)
     
-    A avaliação estatística dos dados de vazão observados diariamente, entre os anos de 1931 e 2013, está resumida na tabela a seguir:
-
+    Figura 1: Variação da vazão ao longo do tempo.
+    
+    A avaliação estatística dos dados de vazão observados diariamente, entre os anos de 1931 e 2013, está resumida na Tabela 1 abaixo:
+    
+    Tabela 1: Avaliação estatística dos dados de vazão
+    
     ![Teste de legenda de imagem](img2.png)
     
     Como podemos notar, os valores de vazão no rio indicado são altamente inconstantes, possuindo variações bruscas como tendência,  característica observável pelo alto desvio padrão encontrado.
