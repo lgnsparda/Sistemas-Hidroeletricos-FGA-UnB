@@ -5,7 +5,7 @@
   - Roger Roel Awadraj Anijs - 18/0142038
   
 
-### Projeto do Aproveitamento
+### Projeto do Aproveitamento Nota: 7,0
 
 O projeto do aproveitamento consistirá na realização e apresentação de cálculos oriundos de dados de um dado aproveitamento hidrelétrico visando a instalação de uma usina hidrelétrica. Cada item deverá ser respondido neste documento do repositório, usando a ferramenta de edição.
 
@@ -143,7 +143,7 @@ Este projeto deverá ser feito neste arquivo, com o *upload* das respectivas ART
 [3] M. H. E. H. Rachael Haas, Francis Turbines Fundamentals and Everything Else You Didn’t know that you wanted to know, Colorado: Colorado State University, CIVE 401, 2014.
 
 
-### Projeto Hidrológico
+### Projeto Hidrológico Nota: 7,5
 
 O projeto hidrológico consistirá na realização e apresentação de cálculos hidrológicos para o projeto de uma central hidrelétrica. Cada item deverá ser respondido neste documento do repositório, usando a ferramenta de edição.
 
@@ -281,7 +281,7 @@ O gráfico a seguir apresenta o resultado do método de Conti - Varlet.
 Este projeto deverá ser feito neste arquivo até o dia **23/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
 
-### Projeto do Conduto
+### Projeto do Conduto - Nota: 7,0
 
 O projeto do conduto consistirá na realização e apresentação de cálculos de condutos e canais para a central hidrelétrica. 
 
