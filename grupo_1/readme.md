@@ -5,7 +5,7 @@
   - Igor Veneroso do Nascimento - 13/0114740
   - Victor Miguel Cunha de Sousa - 14/0087729
 
-### Projeto do Aproveitamento
+### Projeto do Aproveitamento - Nota: 7,0
 
 O projeto do aproveitamento consistirá na realização e apresentação de cálculos oriundos de dados de um dado aproveitamento hidrelétrico visando a instalação de uma usina hidrelétrica. Cada item deverá ser respondido neste documento do repositório, usando a ferramenta de edição.
 
@@ -165,7 +165,7 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
 Este projeto deverá ser feito neste arquivo, com o *upload* das respectivas ARTs, até o dia **02/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
 
-### Projeto Hidrológico
+### Projeto Hidrológico - Nota: 8,0
 
 O projeto hidrológico consistirá na realização e apresentação de cálculos hidrológicos para o projeto de uma central hidrelétrica. Cada item deverá ser respondido neste documento do repositório, usando a ferramenta de edição.
 
@@ -415,7 +415,7 @@ O projeto hidrológico consistirá na realização e apresentação de cálculos
 Este projeto deverá ser feito neste arquivo até o dia **23/09/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
 
-### Projeto do Conduto
+### Projeto do Conduto - Nota: 7,5
 
 O projeto do conduto consistirá na realização e apresentação de cálculos de condutos e canais para a central hidrelétrica. 
 
