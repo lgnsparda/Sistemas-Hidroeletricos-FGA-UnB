@@ -454,24 +454,219 @@ Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos 
 O dimensionamento preliminar de uma turbina consistirá em determinar e dimensionar uma turbina para uma dado aproveitamento hidrelétrico. 
 
   - Cada grupo deverá especificar qual devem ser a potência e vazão da turbina a ser projetada, baseados nos cálculos dos projetos anteriores;
+Considerando os valores do projeto de conduto, definiu-se que o sistema será composto de 3 canais com uma vazão de 93,37m³/s cada. De acordo com parâmetros definidos no projeto de aproveitamento e a altura de queda líquida de 9,5m, o conjunto turbina gerador apresenta um valor aproximado de 80% de rendimento.
+Assim a potência da turbina assume o valor de:
+![1 pot_turb](https://user-images.githubusercontent.com/42543898/48973587-7dd16380-f029-11e8-94c9-b256eebb2bee.gif)
+
+![2 pot_turb](https://user-images.githubusercontent.com/42543898/48973612-47e0af00-f02a-11e8-987c-38c8e9467f2c.gif)
+  
   
   - Estime a rotação nominal da turbina, considerando um gerador com 10 pólos e frequência de corrente de 60 Hz;
   
+A rotação nominal da turbina pode ser calculada utilizando parâmetros como a frequência (f) e número de polos (p) de acordo com a fórmula a seguir:
+
+![3 rotacao](https://user-images.githubusercontent.com/42543898/48981459-ddc51a00-f0bc-11e8-8bad-b028b5628534.gif)
+
+Assumindo a frequência de 60Hz e número de pólos 10 temos:
+
+![4 rotacao](https://user-images.githubusercontent.com/42543898/48981460-de5db080-f0bc-11e8-978a-0a61026a4542.gif)
+
+ 
   - Para um modelo reduzido de 0,075 m de diâmetro, estime qual deve ser a razão de escala geométrica necessária para se obter os valores de potência e vazão determinados no primeiro item;
+  
+Para máquinas de fluxo e escoamento de fluidos analisa-se o conceito de escoamento semelhante, para determinação de parâmetros necessários. Formas semelhantes geométricas, cinemática, dinâmica e mecânica existem para análise. A mecânica dependente da geométrica que por sua vez considera dimensões lineares do modelo e seu protótipo relacionados através do fator de semelhança geométrica ou fator de escala.
+Considerando 0,075m de diâmetro para modelo reduzido, o modelo do protótipo é obtido será obtido pela fórmula: 
+
+![5 escala](https://user-images.githubusercontent.com/42543898/48981613-f6ceca80-f0be-11e8-9891-ca12c8d72e31.gif)
+
+![6 diam](https://user-images.githubusercontent.com/42543898/48981610-f6ceca80-f0be-11e8-8a49-9c7ae05deab2.gif)
+
+Assim é possível encontrar a razão geométrica entre o protótipo e o modelo:
+
+![6 diam](https://user-images.githubusercontent.com/42543898/48981610-f6ceca80-f0be-11e8-8a49-9c7ae05deab2.gif)
+
+![7 razao](https://user-images.githubusercontent.com/42543898/48981611-f6ceca80-f0be-11e8-9a04-74f7f23bf8c6.gif)
+
   
   - Mostre o triângulo de velocidades para estas condições para turbinas Kaplan, Francis e Pelton. Faça as considerações que achar necessárias e explique-as;
   
+ O triângulo de velocidades proporciona a obtenção de informações relacionadas ao salto energético para as máquinas de fluxo. Formado por três vetores de velocidades de rotação(U), absoluta (V) e relativa (W), representadas como:
+ 
+![9 velocidades](https://user-images.githubusercontent.com/42543898/48981777-1a931000-f0c1-11e8-90af-81437bd3c485.gif)
+
+Considera-se ainda duas velocidades referetes a decomposição vetorial das componentes normais(Vn) e tangencial (Vt).
+
+Para turbinas **Kaplan**, teremos:
+
+Considerando o diâmetro na entrada igual ao da saída, temos que a componente normal de entrada Vn1 é igual a de saída Vn2. Logo α2 = 90°.
+
+*Velocidade de rotação*
+
+![10 vel_rot](https://user-images.githubusercontent.com/42543898/48981924-980b5000-f0c2-11e8-939b-049bc8d1ca5b.gif)
+
+![11 vel_rot](https://user-images.githubusercontent.com/42543898/48981927-993c7d00-f0c2-11e8-91ef-07303caadbd9.gif)
+
+*Velocidade absoluta na saída*
+
+![12 absoluta](https://user-images.githubusercontent.com/42543898/48981964-5c24ba80-f0c3-11e8-9f48-b19828fbca48.gif)
+
+![13 vel_abs](https://user-images.githubusercontent.com/42543898/48981965-5cbd5100-f0c3-11e8-83cc-b7c8cf007c50.gif)
+
+*Ângulo beta na saída*
+
+![14 beta](https://user-images.githubusercontent.com/42543898/48982062-a35f7b00-f0c4-11e8-8810-4d5ccebf0de6.gif)
+
+![15 beta](https://user-images.githubusercontent.com/42543898/48982063-a3f81180-f0c4-11e8-857b-aaaf018d1db3.gif)
+
+*Velocidade Relativa na saída*
+
+![16 vel_relat](https://user-images.githubusercontent.com/42543898/48982136-68117c00-f0c5-11e8-9dbc-d02309816c74.gif)
+
+![17 vel_relat](https://user-images.githubusercontent.com/42543898/48982137-68aa1280-f0c5-11e8-9753-f0a8399d0697.gif)
+
+![kaplan](https://user-images.githubusercontent.com/42543898/48984243-994b7580-f0e0-11e8-8a15-718e65106252.png)
+
+Para turbinas **Francis**, teremos:
+
+Considerando β2 = 90° temos que Wt = 0 e U2 = Vt=2
+
+*Velocidade de rotação*
+
+![18 vel_rot](https://user-images.githubusercontent.com/42543898/48982467-2d5e1280-f0ca-11e8-987c-4aa623b0a72a.gif)
+
+![19 vel_rot](https://user-images.githubusercontent.com/42543898/48982468-2df6a900-f0ca-11e8-8277-a8fa62e9ad62.gif)
+
+*Velocidade absoluta na saída*
+
+![12 absoluta](https://user-images.githubusercontent.com/42543898/48981964-5c24ba80-f0c3-11e8-9f48-b19828fbca48.gif)
+
+![13 vel_abs](https://user-images.githubusercontent.com/42543898/48981965-5cbd5100-f0c3-11e8-83cc-b7c8cf007c50.gif)
+
+*Velocidade Relativa na saída*
+
+![16 vel_relat](https://user-images.githubusercontent.com/42543898/48982136-68117c00-f0c5-11e8-9dbc-d02309816c74.gif)
+
+![17 vel_relat](https://user-images.githubusercontent.com/42543898/48982137-68aa1280-f0c5-11e8-9753-f0a8399d0697.gif)
+
+*Ângulo alfa na saída*
+
+![20 alfa](https://user-images.githubusercontent.com/42543898/48982542-3b606300-f0cb-11e8-99cf-c4589420c8b8.gif)
+
+![21 alfa](https://user-images.githubusercontent.com/42543898/48982543-3bf8f980-f0cb-11e8-8972-ff30d1d84cfb.gif)
+
+*Velocidade absoluta na saída*
+
+![22 vel_abs](https://user-images.githubusercontent.com/42543898/48982544-3bf8f980-f0cb-11e8-8e71-6ab08fd4dad7.gif)
+
+![23 vel_abs](https://user-images.githubusercontent.com/42543898/48982545-3bf8f980-f0cb-11e8-8e0b-b07c4546da0e.gif)
+
+![francis](https://user-images.githubusercontent.com/42543898/48984242-98b2df00-f0e0-11e8-931a-b3e7980471ef.png)
+
+Para turbinas **Pelton**, teremos:
+
+Considerando entrada radial onde α1 e β1 são 0
+
+*Velocidade absoluta na saída*
+
+![12 absoluta](https://user-images.githubusercontent.com/42543898/48981964-5c24ba80-f0c3-11e8-9f48-b19828fbca48.gif)
+
+![13 vel_abs](https://user-images.githubusercontent.com/42543898/48981965-5cbd5100-f0c3-11e8-83cc-b7c8cf007c50.gif)
+
+*Velocidade de rotação*
+
+![18 vel_rot](https://user-images.githubusercontent.com/42543898/48982467-2d5e1280-f0ca-11e8-987c-4aa623b0a72a.gif)
+
+![19 vel_rot](https://user-images.githubusercontent.com/42543898/48982468-2df6a900-f0ca-11e8-8277-a8fa62e9ad62.gif)
+
+*Ângulo beta na saída*
+
+![14 beta](https://user-images.githubusercontent.com/42543898/48982062-a35f7b00-f0c4-11e8-8810-4d5ccebf0de6.gif)
+
+![15 beta](https://user-images.githubusercontent.com/42543898/48982063-a3f81180-f0c4-11e8-857b-aaaf018d1db3.gif)
+
+*Velocidade Relativa na saída*
+
+![16 vel_relat](https://user-images.githubusercontent.com/42543898/48982136-68117c00-f0c5-11e8-9dbc-d02309816c74.gif)
+
+![17 vel_relat](https://user-images.githubusercontent.com/42543898/48982137-68aa1280-f0c5-11e8-9753-f0a8399d0697.gif)
+
+*Projeção da velocidade relativa*
+
+![24 projecao](https://user-images.githubusercontent.com/42543898/48982648-7c0cac00-f0cc-11e8-84d6-319399e86c96.gif)
+
+![25 projecao](https://user-images.githubusercontent.com/42543898/48982649-7ca54280-f0cc-11e8-80e7-2d0e86f6a48f.gif)
+
+*Ângulo na saida*
+
+![27 ang](https://user-images.githubusercontent.com/42543898/48982910-8b412900-f0cf-11e8-8c81-ac378aca40d3.gif)
+
+![28 ang](https://user-images.githubusercontent.com/42543898/48982911-8bd9bf80-f0cf-11e8-9205-690b5ff14bff.gif)
+
+*Velocidade absoluta saída*
+
+![22 vel_abs](https://user-images.githubusercontent.com/42543898/48982544-3bf8f980-f0cb-11e8-8e71-6ab08fd4dad7.gif)
+
+![29 ang](https://user-images.githubusercontent.com/42543898/48982940-f7bc2800-f0cf-11e8-938e-bb4e77d8572c.gif)
+
+![pelton](https://user-images.githubusercontent.com/42543898/48984244-9a7ca280-f0e0-11e8-9541-ddd5f23b6da7.png)
+
+  
   - Determine a rotação específica e classifique a turbina como lenta, rápida ou extra-rápida;
+  
+ A rotação específica é um parâmetro que determina o tipo de rotor da máquina. A fórmula a seguir determina a rotação específica:
+![30 rotespecifica](https://user-images.githubusercontent.com/42543898/48983354-f8a38880-f0d4-11e8-8f69-62264e760a5b.gif)
+
+![31 rotespecifica](https://user-images.githubusercontent.com/42543898/48983352-f7725b80-f0d4-11e8-9db7-48a3f989d688.gif)
+Segundo HENN, a turbina adequada para essa rotação é classificada como Francis rápida, pelo fato da rotação específica do projeto encontrar-se entre 200 a 320 rpm.
+
   
   - Estime a velocidade de disparo da turbina;
   
+ A velocidade de disparo é determinada pela situação em que a turbina se encontra na sua máxima rotação. A partir da equação de Bernoulli na entrada e saída a velocidade é definida por:
+
+![32 disparo](https://user-images.githubusercontent.com/42543898/48983463-54224600-f0d6-11e8-9ed2-77306623fdc0.gif)
+
+![33 disparo](https://user-images.githubusercontent.com/42543898/48983464-55537300-f0d6-11e8-8ac9-abcff02b81ea.gif)
+
+  
   - Estime o fator de capacidade;
+  
+O fator de capacidade é a relação entre a energia efetivamente gerada e a energia gerada caso o funcionamento ocorra em potência plena durante todo tempo.  Esse fator indica a adequação entre a vazão de projeto e as disponíveis, é dado por:
+
+![34 fc](https://user-images.githubusercontent.com/42543898/48983508-ede9f300-f0d6-11e8-9ca2-60521a61f037.gif)
+
+A energia é obtida pelo produto da potência pelo tempo, pelos dados do projeto de aproveitamento, tomando a potência máxima de 20.984,71kW e o rendimento de 80%, substituindo na equação do fator de capacidade temos que:
+
+![35 fc](https://user-images.githubusercontent.com/42543898/48983630-787f2200-f0d8-11e8-99f2-299e23deaf5e.gif)
+
   
   - Qual é o tipo de turbina mais adequado para este aproveitamento?
   
+
+Pelos valores de altura de queda e vazão é possível determinar a melhor turbina a ser utilizada, além de ser determinada também pela rotação específica. Considerando o gráfico e parâmetros anteriores a turbina a ser adotada será Francis.
+ 
+![36 turb](https://user-images.githubusercontent.com/42543898/48983683-0a872a80-f0d9-11e8-876d-41c7c1fc9a63.jpeg)
+
+  
   - Se for o caso, determine a altura de sucção e diga se existe risco de cavitação;
   
+  
+Para dimensionamento deve ser levado em consideração a cavitação do sistema, que consiste na formação de bolhas ou cavidades de vapor, para que esses efeitos não ocorram é necessário calcular a atura de secção do sistema definida pela equação:
+
+![37 hsm](https://user-images.githubusercontent.com/42543898/48983761-01e32400-f0da-11e8-82f5-cf2b5eda734e.gif)
+
+Considerando a altura zb muito próxima de zero, pois foi determinada como altitude mínima de jusante e coeficiente de Thomas 1,266 * 10^(-5) temos:
+
+![38 hsm](https://user-images.githubusercontent.com/42543898/48983949-88990080-f0dc-11e8-9d67-e6558bb3ced7.gif)
+
+As turbinas são consideradas afogadas 9,5m comparando com valor de HSM concluímos que não haverá cavitação.
+
   - Com os cálculos, a usina que conterá esta turbina será classificada como? (Pequena central hidrelétrica, Grande central hidrelétrica, etc.)
+  
+  Como demonstrado no projeto de aproveitamento, e no cálculo de fator de capacidade a potência útil hidrelétrica enquadra-se como uma Pequena Central Hidrelétrica.
+  
+HENN, E. A. L. Máquinas de fluido. In: . Santa Maria-UFSM: [s.n.], 2006
+NOLETO, L. G. Sistemas hidrelétricos - notas de aula.
   
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
 
