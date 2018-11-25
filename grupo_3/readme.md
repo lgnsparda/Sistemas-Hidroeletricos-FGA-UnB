@@ -666,6 +666,7 @@ As turbinas são consideradas afogadas 9,5m comparando com valor de HSM concluí
   Como demonstrado no projeto de aproveitamento, e no cálculo de fator de capacidade a potência útil hidrelétrica enquadra-se como uma Pequena Central Hidrelétrica.
   
 HENN, E. A. L. Máquinas de fluido. In: . Santa Maria-UFSM: [s.n.], 2006
+
 NOLETO, L. G. Sistemas hidrelétricos - notas de aula.
   
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
