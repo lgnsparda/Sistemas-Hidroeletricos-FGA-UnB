@@ -399,13 +399,30 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
 
   - Se for o caso, determine a altura de sucção e diga se existe risco de cavitação;
   
-  A análise de cavitação começa pelo cálculo do fator de Thoma. Para turbinas do tipo Kaplan, o fator é dado conforme a equação:
+    A análise de cavitação começa pelo cálculo do fator de Thoma. Para turbinas do tipo Kaplan, o fator é dado conforme a equação:
   
 	 ![thoma](thoma.gif)
 
   Determinado o fator e Thoma, é possível calcular as perdas dentro da máquina:
   
 	 ![deltah](deltah.gif)
+	 
+  Sabe-se que o NPSH requerido é calculado como: 
+  
+  ![eq.34](eq.34.gif)
+  
+  Tendo que a velocidade V2 é de 46,13 m/s, o NPSH requerido é igual a 108,56.
+
+  Sabe-se que o NPSH disponível é calculado como: 
+  
+  ![npshd](npshd.gif)
+  
+  Tendo que a pressão P2 é de aproximadamente 101,3 kPa, a pressão Pv é a pressão de vapor para a água a 20°C, que é de 2,3398 kPa, substituindo as variáveis temos um NPSH disponível de aproximadamente 108,46.
+  Portanto, para não haver cavitação será necessária uma altura de sucção calculada por: 
+  
+  ![eq36](eq36.gif)
+  
+  Logo, será necessária uma altura de sucção de 10 cm.
 
   - Com os cálculos, a usina que conterá esta turbina será classificada como? (Pequena central hidrelétrica, Grande central hidrelétrica, etc.)
   
