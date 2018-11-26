@@ -399,7 +399,7 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
 
   - Se for o caso, determine a altura de sucção e diga se existe risco de cavitação;
   
-    A análise de cavitação começa pelo cálculo do fator de Thoma. Para turbinas do tipo Kaplan, o fator é dado conforme a equação:
+  A análise de cavitação começa pelo cálculo do fator de Thoma. Para turbinas do tipo Kaplan, o fator é dado conforme a equação:
   
 	 ![thoma](thoma.gif)
 
