@@ -574,7 +574,7 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
   
     + A rotação nominal da turbina pode ser calculada pela seguinte equação:
     
-         ![Teste de legenda de imagem](/imagens4/rpmfreqpolo.png)
+         ![Teste de legenda de imagem](imagens4/rpmfreqpolo.png)
          
          Figura 1: Equação para definir a rotação nominal.
          
@@ -597,24 +597,24 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
        
     + Assim a potência no eixo (considerando um rendimento de 95% da conversão mecânica para elétrica) será dado por:
     
-         ![Teste de legenda de imagem](/imagens4/pot.png)
+         ![Teste de legenda de imagem](imagens4/pot.png)
     
          Figura 2: Potência de eixo.
     
     + Temos a vazão, a massa específica da água e a potência, assim isolando Y encontramos que seu valor deve ser de 707,36 J/kg.
     + Y pode ser calculado a partir da equação a seguir:
     
-         ![Teste de legenda de imagem](/imagens4/trabalho.png)
+         ![Teste de legenda de imagem](imagens4/trabalho.png)
     
          Figura 3: Trabalho específico.
     
     + A partir dos parâmetros construtivos da turbina é possível calcular u2 e Vn2 através das equações:
     
-         ![Teste de legenda de imagem](/imagens4/u2.png)
+         ![Teste de legenda de imagem](imagens4/u2.png)
                                   
          Figura 4: Calculo de u2.
                                           
-         ![Teste de legenda de imagem](/imagens4/vn2.png)
+         ![Teste de legenda de imagem](imagens4/vn2.png)
                                           
          Figura 5: Calculo de Vn2.
                                           
@@ -652,41 +652,41 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
   
       Podemos determinar a velocidade absoluta do escoamento pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/v_absoluto_kaplan.JPG)
+      ![Teste de legenda de imagem](imagens4/v_absoluto_kaplan.JPG)
     
       Agora é possível determinar o triângulo de velocidades. Temos que u1, pode ser determinada pela seguinte equação:
     
-      ![Teste de legenda de imagem](/imagens4/u_kaplan.JPG)
+      ![Teste de legenda de imagem](imagens4/u_kaplan.JPG)
    
       Podemos determinar o B pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/B_kaplan.JPG)
+      ![Teste de legenda de imagem](imagens4/B_kaplan.JPG)
    
       Podemos determianr o W pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/w_kaplan.JPG)
+      ![Teste de legenda de imagem](imagens4/w_kaplan.JPG)
    
       Assim, temos os triângulos de velocidades :
 
-      ![Teste de legenda de imagem](/imagens4/triangulos_kaplan.JPG)
+      ![Teste de legenda de imagem](imagens4/triangulos_kaplan.JPG)
 
       Para a turbina Kaplan (médio):
 
       Temos que u1, pode ser determinada pela seguinte equação:
     
-      ![Teste de legenda de imagem](/imagens4/u1_kaplan_medio.JPG)
+      ![Teste de legenda de imagem](imagens4/u1_kaplan_medio.JPG)
    
       Podemos determinar o angulo B pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/b_kaplan_medio.JPG)
+      ![Teste de legenda de imagem](imagens4/b_kaplan_medio.JPG)
    
       Podemos determianr o W pela seguinte equação:
     
-      ![Teste de legenda de imagem](/imagens4/w_kaplan_medio.JPG)
+      ![Teste de legenda de imagem](imagens4/w_kaplan_medio.JPG)
    
       Assim, temos os triângulos de velocidades :
 
-      ![Teste de legenda de imagem](/imagens4/triangulos_kaplan_medio.JPG)
+      ![Teste de legenda de imagem](imagens4/triangulos_kaplan_medio.JPG)
   
     + Para a turbina Francis temos as seguintes considerações:
   
@@ -702,23 +702,23 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
    
       Podemos determinar o u pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/u_francis.JPG)
+      ![Teste de legenda de imagem](imagens4/u_francis.JPG)
    
       Podemos determinar o Vt pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/Vt_francis.JPG)
+      ![Teste de legenda de imagem](imagens4/Vt_francis.JPG)
    
       Podemos determinar alfa pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/alfa_francis.JPG)
+      ![Teste de legenda de imagem](imagens4/alfa_francis.JPG)
 
       Podemos determinar o V pela seguinte equação:
    
-      ![Teste de legenda de imagem](/imagens4/V_absoluto_francis.JPG)
+      ![Teste de legenda de imagem](imagens4/V_absoluto_francis.JPG)
 
       Assim, o triângulo de velocidades para a turbina francis:
 
-      ![Teste de legenda de imagem](/imagens4/triangulo_francis.JPG)
+      ![Teste de legenda de imagem](imagens4/triangulo_francis.JPG)
 
     - Para a turbina Pelton temos as seguintes considerações:
  
@@ -730,15 +730,15 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
  
       Podemos determinar  o u pega seguinte equação:
  
-      ![Teste de legenda de imagem](/imagens4/u_francis.JPG)
+      ![Teste de legenda de imagem](imagens4/u_francis.JPG)
  
       Podemos determinar o V pela seguinte equação:
  
-      ![Teste de legenda de imagem](/imagens4/V_pelton.JPG)
+      ![Teste de legenda de imagem](imagens4/V_pelton.JPG)
  
       Triangulo de velocidades da turbina pelton:
  
-      ![Teste de legenda de imagem](/imagens4/triangulo_pelton.JPG)
+      ![Teste de legenda de imagem](imagens4/triangulo_pelton.JPG)
  
   - Determine a rotação específica e classifique a turbina como lenta, rápida ou extra-rápida;
   
@@ -746,7 +746,7 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
   
       Para esse caso, será calculada a rotação específica relacionada a vazão e o salto energético, que é dada pela seguinte equação:
 
-      ![Teste de legenda de imagem](/imagens4/rotacao_especifica.JPG)
+      ![Teste de legenda de imagem](imagens4/rotacao_especifica.JPG)
 
       Quanto às velocidades do rotor, as turbinas Francis podem ser:
 
@@ -767,13 +767,13 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
      
       + A partir da aplicação de Bernoulli na entrada e na saída do bocal, essa velocidade é obtida como:
     
-      ![Teste de legenda de imagem](/imagens4/us.PNG)
+      ![Teste de legenda de imagem](imagens4/us.PNG)
         
       Figura 6: Calculo da velocidade de disparo.
      
       + Como o fluido é água, a massa é 0,97 kg/m³ e a gravidade 9,81 m²/s então, a velocidade de disparo da turbina possui velocidade de:
      
-      ![Teste de legenda de imagem](/imagens4/us2.PNG)
+      ![Teste de legenda de imagem](imagens4/us2.PNG)
         
       Figura 7: Valor da velocidade de disparo.
   
@@ -781,38 +781,38 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
   
       + O fator de capacidade é a relação entre a energia efetivamente gerada 𝐸ú𝑡𝑖𝑙 e a energia gerada caso a central trabalhe todo o tempo em potência plena 𝐸𝑡𝑜𝑡𝑎𝑙. Este fator indicará a adequação entre a vazão de projeto e as vazões disponíveis, é dado por (NOLETO, 2018):
      
-      ![Teste de legenda de imagem](/imagens4/fc1.PNG)
+      ![Teste de legenda de imagem](imagens4/fc1.PNG)
         
       Figura 8: Calculo do fator da capacidade.
     
       + Sabendo que a energia é dada pelo produto da potência pelo tempo e utilizando os dados adquiridos no projeto de aproveitamento, tomando a potência máxima como a potência total, temos:
 
-      ![Teste de legenda de imagem](/imagens4/pu.PNG)
+      ![Teste de legenda de imagem](imagens4/pu.PNG)
         
       Figura x: Calculo da potência útil.
     
       Onde:
     
-      ![Teste de legenda de imagem](/imagens4/pu2.PNG)
+      ![Teste de legenda de imagem](imagens4/pu2.PNG)
     
-      ![Teste de legenda de imagem](/imagens4/pt.PNG)
+      ![Teste de legenda de imagem](imagens4/pt.PNG)
     
       + Logo, o valor de fator de capacidade da usina hidrelétrica é 
 
-      ![Teste de legenda de imagem](/imagens4/fc2.PNG)
+      ![Teste de legenda de imagem](imagens4/fc2.PNG)
         
  - Qual é o tipo de turbina mais adequado para este aproveitamento?
   
       Com base na altura e na vazão de projeto a turbina adequada é a turbina Francis. Pode-se calcular o coeficiente de Thoma, também conhecido como coeficiente de cavitação, para esse tipo de turbina. Ele permite obter-se a estimativa de faixa de operação do sistema para que não ocorra a cavitação. O coeficiente de cavitação é obtido a partir da seguinte equação: 
   
-   ![Teste de legenda de imagem](/imagens4/thoma.JPG)
+   ![Teste de legenda de imagem](imagens4/thoma.JPG)
 
   
  - Se for o caso, determine a altura de sucção e diga se existe risco de cavitação;
   
     Com o coeficiente de Thoma definido, é possível obter-se a altura máxima de sucção desta turbina, a partir da seguinte equação:
   
-    ![Teste de legenda de imagem](/imagens4/Hsm.JPG)
+    ![Teste de legenda de imagem](imagens4/Hsm.JPG)
   
     Onde zb é a altitude do nível mínimo de jusante. Turbinas dispostas abaixo do nível de jusante são ditas afogadas, e, portanto, terão altura de sucção negativa. Vamos considerar que zb=0.
   
