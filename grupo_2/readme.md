@@ -326,24 +326,95 @@ O dimensionamento preliminar de uma turbina consistirá em determinar e dimensio
 
   - Cada grupo deverá especificar qual devem ser a potência e vazão da turbina a ser projetada, baseados nos cálculos dos projetos anteriores;
   
+  	- De acordo com os cálculos realizados nos projetos anteriores, temos que a potência da turbina a ser instalada será de 19,25 MW e a vazão de 490,67 m³/s
+
+  
   - Estime a rotação nominal da turbina, considerando um gerador com 10 pólos e frequência de corrente de 60 Hz;
   
+  	- Tendo que p é o número de pólos e f a frequência, a rotação nominal é dada por: 
+	
+	![Equação 28](eq.28.gif)
+	
+	Substituindo os valores, temos que a rotação nominal é n=720 rpm.
+
   - Para um modelo reduzido de 0,075 m de diâmetro, estime qual deve ser a razão de escala geométrica necessária para se obter os valores de potência e vazão determinados no primeiro item;
+  	
+	A razão de escala geométrica é dada por:
+	
+	 ![Equação 34](eq34.gif)
+	 
+	 Onde:
+	 
+	 Dm = Diâmetro do modelo;
+	 
+	 Dp = Diâmetro do protótipo;
+	 
+	 kG = Escala geométrica.
+	 
+	 Considerando o valor do diâmetro do protótipo igual ao diâmetro do conduto, tem-se que Dp = 3,68m. Substituindo os valores, tem-se:
+	 
+	 ![Equação 35](eq35.gif)
   
   - Mostre o triângulo de velocidades para estas condições para turbinas Kaplan, Francis e Pelton. Faça as considerações que achar necessárias e explique-as;
   
+  	![Turbina Kaplan](Kaplan.jpg)
+  
+  	![Turbina Francis](Francis.jpg)
+	
+	![Turbina Pelton](Pelton.jpg)
+  
   - Determine a rotação específica e classifique a turbina como lenta, rápida ou extra-rápida;
   
+  	- A rotação específica é dada por:
+	
+   ![nq](nq.gif)
+	
+  Também, segundo a fórmula de Addison devido aos resultados muito pequenos usualmente encontrados na equação anterior:
+	
+   ![nqa](nqa.gif)
+
   - Estime a velocidade de disparo da turbina;
   
-  - Estime o fator de capacidade;
+  A velocidade de disparo pode ser estimada através da equação:
+  
+   ![nmax](nmax.gif)
+
+- Estime o fator de capacidade;
+  
+  O fator de capacidade pode ser calculado através da equação:
+  
+  ![fc1](fc1.gif)
+  
+  Assumindo um rendimento de 90% para a turbina e de 95% para o gerador, temos:
+  
+  ![fc2](fc2.gif)
   
   - Qual é o tipo de turbina mais adequado para este aproveitamento?
   
+  	- Henn (2008) apresenta o seguinte campo de aplicação para turbinas hidráulicas:
+	
+	![Turbinas](turbinas.png)
+	
+	Substituindo os valores de potência calculada, vazão e altura de queda no gráfico, podemos observar que o tipo de turbina mais adequado para este aproveitamento é uma turbina do tipo Kaplan de baixa queda.
+
   - Se for o caso, determine a altura de sucção e diga se existe risco de cavitação;
   
+  A análise de cavitação começa pelo cálculo do fator de Thoma. Para turbinas do tipo Kaplan, o fator é dado conforme a equação:
+  
+	 ![thoma](thoma.gif)
+
+  Determinado o fator e Thoma, é possível calcular as perdas dentro da máquina:
+  
+	 ![deltah](deltah.gif)
+
   - Com os cálculos, a usina que conterá esta turbina será classificada como? (Pequena central hidrelétrica, Grande central hidrelétrica, etc.)
   
+  	- Assumindo que o aproveitamento em questão se trata de uma produção independente, autoprodução ou produção autônoma, e que a área do reservatório delimitada pelo nível d’água máximo normal é igual ou inferior a 13km², e atende à condição:
+	
+	 ![Equação 33](eq33.gif)
+	 
+	 onde P é o perímetro concernente à área delimitada. Dado que a potência instalada se encontra na faixa de 1000 a 30000 kW, a instalação em questão pode ser classificada como uma pequena central hidrelétrica (PCH).
+	
   - Projetos que não tiverem todos estes itens respondidos ou que estiverem incompletos **não serão avaliados!**
 
 
