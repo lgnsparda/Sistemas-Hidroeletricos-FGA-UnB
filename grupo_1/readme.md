@@ -559,7 +559,7 @@ Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos 
   ELETROBRÁS. Diretrizes para estudos e projetos de Pequenas Centrais Hidrelétricas, 2000.
 
 
-### Projeto da Turbina
+### Projeto da Turbina  - Nota: 7,5
 
 O dimensionamento preliminar de uma turbina consistirá em determinar e dimensionar uma turbina para uma dado aproveitamento hidrelétrico. 
 
