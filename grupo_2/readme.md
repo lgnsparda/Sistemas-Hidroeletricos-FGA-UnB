@@ -320,7 +320,7 @@ O projeto do conduto consistirá na realização e apresentação de cálculos d
 Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos de adiamento só serão concedidos em casos excepcionais, a serem decididos pelo professor.
 
 
-### Projeto da Turbina
+### Projeto da Turbina  - Nota: 6,5
 
 O dimensionamento preliminar de uma turbina consistirá em determinar e dimensionar uma turbina para uma dado aproveitamento hidrelétrico. 
 
