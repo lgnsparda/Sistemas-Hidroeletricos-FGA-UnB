@@ -449,7 +449,7 @@ Este projeto deverá ser feito neste arquivo até o dia **07/10/2018**. Pedidos 
 
 
 
-### Projeto da Turbina
+### Projeto da Turbina  - Nota: 8,0
 
 O dimensionamento preliminar de uma turbina consistirá em determinar e dimensionar uma turbina para uma dado aproveitamento hidrelétrico. 
 
